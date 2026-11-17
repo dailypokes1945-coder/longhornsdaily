@@ -16,7 +16,7 @@ The site itself (GitHub repo, Cloudflare Pages, KV content, the domain, the edit
 ### Morning update prompt (copy exactly)
 
 ```
-Morning update for Longhorns Daily (https://longhornsdaily.com), an independent Drudge-style Texas Longhorns (University of Texas at Austin) sports headline site owned by the user. It is the sister site of Sooners Daily (longhornsdaily.com) and Pokes Daily (pokesdaily.com) and works the same way. Do it every morning before 5:40 AM Central. This is a personal side project: use only web search/fetch, the shell and git; don't use any other connectors.
+Morning update for Longhorns Daily (https://longhornsdaily.com), an independent Drudge-style Texas Longhorns (University of Texas at Austin) sports headline site owned by the user. It is the sister site of Sooners Daily (soonersdaily.com) and Pokes Daily (pokesdaily.com) and works the same way. Do it every morning before 5:40 AM Central. This is a personal side project: use only web search/fetch, the shell and git; don't use any other connectors.
 
 REPO: GitHub dailypokes1945-coder/longhornsdaily (branch main). Attach it with add_repo (owner dailypokes1945-coder, repo longhornsdaily, access push) and clone it. Cloudflare Pages deploys main automatically ~1 minute after a push. Read README.md first. If the repo can't be attached, stop and say so in your report. If https://longhornsdaily.com/api/site doesn't load yet (site not connected), work from the repo's own files (functions/_seed.js holds the starting owner headlines, public/overrides.json any extras) and mention it in the report.
 
