@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Longhorns Daily — Editor</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+  :root { --ink:#111; --orange:#BF5700; --rule:#ccc; --muted:#666; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--ink); background:#f4f4f2; }
+  header { position:sticky; top:0; z-index:5; background:var(--ink); color:#fff; display:flex; align-items:center; gap:12px; padding:10px 18px; flex-wrap:wrap; }
+  header h1 { font-family:Georgia,serif; font-size:20px; margin:0; }
+  header h1 span { color:#BF5700; }
+  header .sp { flex:1; }
+  header .who { font-size:12px; opacity:.75; }
+  button { font:inherit; cursor:pointer; }
+  .pub { background:var(--orange); color:#fff; border:0; padding:8px 18px; font-weight:700; border-radius:4px; }
+  .pub:disabled { opacity:.5; cursor:default; }
+  .ghost { background:transparent; color:#fff; border:1px solid #fff8; padding:7px 12px; border-radius:4px; text-decoration:none; font-size:14px; }
+  #msg { font-size:13px; }
+  main { max-width:1000px; margin:0 auto; padding:18px; }
+  section { background:#fff; border:1px solid var(--rule); border-radius:6px; padding:16px; margin-bottom:16px; }
+  section h2 { margin:0 0 10px; font-size:15px; letter-spacing:1px; text-transform:uppercase; display:flex; align-items:center; gap:10px; }
+  label { display:block; font-size:12px; color:var(--muted); margin:8px 0 3px; }
+  input[type=text], input[type=url], textarea, select { width:100%; font:inherit; font-size:14px; padding:7px; border:1px solid #aaa; border-radius:4px; background:#fff; }
+  textarea { min-height:54px; }
+  .grid { display:grid; grid-template-columns:2fr 1fr 1fr auto; gap:10px; align-items:end; }
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  .add { background:var(--ink); color:#fff; border:0; padding:8px 16px; border-radius:4px; }
+  .slot h3 { font-size:12px; letter-spacing:2px; color:var(--muted); margin:16px 0 6px; text-transform:uppercase; }
+  .row { display:flex; gap:8px; align-items:center; padding:7px 8px; border:1px solid #e3e3e3; border-radius:4px; margin-bottom:5px; background:#fafafa; }
+  .row .h { flex:1; min-width:0; }
+  .row .h a { font-weight:700; text-transform:uppercase; font-size:13px; color:var(--ink); text-decoration:none; }
+  .row .h a.hot { color:var(--orange); }
+  .row .h a.red { color:#E00000; }
+  .row .h small { display:block; color:var(--muted); font-size:11px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .row button, .row select { font-size:12px; padding:3px 7px; border:1px solid #aaa; background:#fff; border-radius:3px; }
+  .row button.del { color:var(--orange); border-color:var(--orange); }
+  .empty { color:#aaa; font-size:13px; padding:4px 8px; }
+  .toggle { font-size:13px; font-weight:400; display:flex; gap:6px; align-items:center; letter-spacing:0; text-transform:none; color:var(--ink); margin-left:auto; }
+  .hint { font-size:12px; color:var(--muted); margin:6px 0 0; }
+  .linkrow { display:grid; grid-template-columns:1fr 2fr auto; gap:8px; margin-bottom:6px; }
+  code { background:#eee; padding:1px 4px; border-radius:3px; font-size:12px; word-break:break-all; }
+  .dlg { position:fixed; inset:0; background:#0006; display:none; align-items:flex-start; justify-content:center; padding-top:8vh; z-index:10; }
+  .dlg.open { display:flex; }
+  .dlg form { background:#fff; width:min(560px,92vw); padding:18px; border-radius:6px; }
+  .dlg .actions { display:flex; justify-content:flex-end; gap:8px; margin-top:14px; }
+  .dlg .actions button { padding:7px 14px; border:1px solid var(--ink); background:#fff; border-radius:4px; }
+  .dlg .actions .primary { background:var(--ink); color:#fff; }
+  .upload { display:inline-block; background:var(--ink); color:#fff; padding:7px 12px; border-radius:4px; cursor:pointer; font-size:13px; margin:0; }
+  .upmsg { font-size:12px; color:var(--muted); margin-left:8px; }
+  .loading { text-align:center; padding:60px; color:var(--muted); }
+  @media (max-width:700px) { .grid, .grid2 { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>LONGHORNS <span>DAILY</span> · EDITOR</h1>
+  <span class="who" id="who"></span>
+  <span class="sp"></span>
+  <span id="msg"></span>
+  <a class="ghost" href="/" target="_blank" rel="noopener">View site ↗</a>
+  <button class="pub" id="publish" disabled>Publish</button>
+</header>
+
+<main id="main"><div class="loading" id="loading">Loading…</div></main>
+
+<template id="tpl">
+  <section>
+    <h2>Add a story</h2>
+    <form id="add">
+      <label for="a-headline">Headline (your words)</label>
+      <textarea id="a-headline" required></textarea>
+      <div class="grid">
+        <div><label for="a-url">Link</label><input id="a-url" type="url" placeholder="https://" required></div>
+        <div><label for="a-source">Source</label><input id="a-source" type="text" placeholder="Austin American-Statesman"></div>
+        <div><label for="a-slot">Where</label><select id="a-slot"></select></div>
+        <div><label style="display:flex;gap:5px;align-items:center;margin-bottom:2px"><input type="checkbox" id="a-hot"> Orange</label><label style="display:flex;gap:5px;align-items:center;margin:0 0 9px"><input type="checkbox" id="a-red"> Red</label></div>
+      </div>
+
+      <div class="grid2" style="margin-top:10px">
+          <div><label for="a-im">Photo (your own photos only)</label>
+            <label class="upload" for="a-file">📷 Upload photo</label><input type="file" id="a-file" accept="image/*" hidden>
+            <span class="upmsg" id="a-upmsg"></span>
+            <input type="text" id="a-im" placeholder="or paste a photo link: https://..." style="margin-top:6px"></div>
+          <div><label for="a-ic">Photo credit</label><input type="text" id="a-ic" placeholder="Photo: Longhorns Daily"></div>
+        </div>
+      <details style="margin-top:10px"><summary style="cursor:pointer;font-size:13px">More extras: big-game graphic, X post or Facebook video</summary>
+        <div class="grid2">
+          <div><label for="a-ml">Home team</label><input type="text" id="a-ml" placeholder="Texas"></div>
+          <div><label for="a-mlr">Home rank</label><input type="text" id="a-mlr" placeholder="#2"></div>
+          <div><label for="a-mr">Opponent</label><input type="text" id="a-mr" placeholder="Nebraska"></div>
+          <div><label for="a-mrr">Opponent rank</label><input type="text" id="a-mrr" placeholder="#3"></div>
+        </div>
+        <label for="a-mw">When / where</label><input type="text" id="a-mw" placeholder="Friday 7 PM · Gallagher-Iba Arena · ESPNU">
+        <label for="a-em">Embed an X post or Facebook video (paste its link — shows it with credit)</label><input type="url" id="a-em" placeholder="https://x.com/... or https://www.facebook.com/.../videos/...">
+        <p class="hint">Fill in both teams to show the matchup graphic. Works best in the Feature spot.</p>
+      </details>
+      <div style="margin-top:10px"><button class="add" type="submit">Add to page</button></div>
+    </form>
+    <p class="hint">Tip: put words in [square brackets] to make just those words red, e.g. <code>[BREAKING] Robideau pins Taylor</code>. The word LIVE turns red automatically.<br>New stories go to the top of their section. Hit <b>Publish</b> when you're done to make changes live.</p>
+  </section>
+
+  <section>
+    <h2>Front page</h2>
+    <div id="slots"></div>
+  </section>
+
+  <section>
+    <h2>Added automatically this morning</h2>
+    <p class="hint" style="margin-top:0">The 5 AM update adds these under your stories in each column. It never touches the banner, feature or top links. Hide any you don't want, then Publish.</p>
+    <div id="auto-list"><div class="empty">Loading…</div></div>
+    <h3 style="margin-top:14px">Expired (game's over): hidden from the columns</h3>
+    <p class="hint">Each morning, stories about games that already happened are hidden from the three columns. Your banner, feature and top links are never touched. Click "keep" to put one back.</p>
+    <div id="expired-list"><div class="empty">Loading…</div></div>
+  </section>
+
+  <section>
+    <h2>Ticker line <label class="toggle"><input type="checkbox" id="tk-manual"> Use my own ticker</label></h2>
+    <p class="hint" style="margin-top:0">Automatic (every morning): <b id="tk-auto">—</b></p>
+    <input type="text" id="ticker" placeholder="Next up: Texas vs. ___ · Sat 2:30 PM">
+    <p class="hint">The morning update sets the ticker to the next 3 Texas events. Check "Use my own ticker" to show your text above instead.</p>
+  </section>
+
+  <section>
+    <h2>Ticket links <label class="toggle"><input type="checkbox" id="tix-on"> Show on site</label></h2>
+    <label for="tix-link">Your StubHub affiliate link</label>
+    <input type="text" id="tix-link" placeholder="https://…/destination:{url}">
+    <p class="hint">The morning update finds the StubHub page for each game in the automatic ticker. With this on, a small <b>🎟 TICKETS*</b> link appears after those games, and the footer shows the affiliate disclosure. Put <code>{url}</code> where the StubHub page goes in your tracking link; without <code>{url}</code>, every game uses your link as-is. Not shown when "Use my own ticker" is checked.</p>
+  </section>
+
+  <section>
+    <h2>Sponsor <label class="toggle"><input type="checkbox" id="sp-on"> Show on site</label></h2>
+    <div class="grid2">
+      <div><label for="sp-name">Sponsor name</label><input type="text" id="sp-name" placeholder="Eskimo Joe's"></div>
+      <div><label for="sp-url">Sponsor link</label><input type="url" id="sp-url" placeholder="https://"></div>
+    </div>
+    <p class="hint">Shows "PRESENTED BY ___" under the logo.</p>
+  </section>
+
+  <section>
+    <h2>Shop box <label class="toggle"><input type="checkbox" id="shop-on"> Show on site</label></h2>
+    <label for="shop-title">Box title</label>
+    <input type="text" id="shop-title" placeholder="SHOP THE HORNS">
+    <label>Links (affiliate links are fine — a disclosure line is added automatically)</label>
+    <div id="shop-links"></div>
+    <button type="button" class="add" id="shop-add" style="margin-top:6px">+ Add shop link</button>
+  </section>
+
+  <section>
+    <h2>Newsletter box <label class="toggle"><input type="checkbox" id="nl-on"> Show on site</label></h2>
+    <div class="grid2">
+      <div><label for="nl-url">Sign-up page link</label><input type="url" id="nl-url" placeholder="https://"></div>
+      <div><label for="nl-pitch">Pitch line</label><input type="text" id="nl-pitch"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Podcast box <label class="toggle"><input type="checkbox" id="pod-on"> Show on site</label></h2>
+    <div class="grid2">
+      <div><label for="pod-title">Latest episode title</label><input type="text" id="pod-title"></div>
+      <div><label for="pod-url">Episode / show link</label><input type="url" id="pod-url" placeholder="https://"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Quick-add bookmark</h2>
+    <p class="hint" style="margin-top:0">Drag this link to your browser's bookmarks bar. When you're reading a Texas story anywhere, click it and the editor opens with that story's link and title filled in.</p>
+    <p><a id="bm" style="display:inline-block;background:var(--orange);color:#fff;padding:6px 12px;border-radius:4px;font-weight:700;text-decoration:none">+ Longhorns Daily</a></p>
+  </section>
+</template>
+
+<div class="dlg" id="dlg">
+  <form id="edit">
+    <h2 style="margin:0 0 8px;font-size:15px">EDIT STORY</h2>
+    <label for="e-headline">Headline</label><textarea id="e-headline" required></textarea>
+    <label for="e-url">Link</label><input id="e-url" type="url" required>
+    <label for="e-source">Source</label><input id="e-source" type="text">
+      <div class="grid2" style="margin-top:10px">
+          <div><label for="e-im">Photo (your own photos only)</label>
+            <label class="upload" for="e-file">📷 Upload photo</label><input type="file" id="e-file" accept="image/*" hidden>
+            <span class="upmsg" id="e-upmsg"></span>
+            <input type="text" id="e-im" placeholder="or paste a photo link: https://..." style="margin-top:6px"></div>
+          <div><label for="e-ic">Photo credit</label><input type="text" id="e-ic" placeholder="Photo: Longhorns Daily"></div>
+        </div>
+      <details style="margin-top:10px"><summary style="cursor:pointer;font-size:13px">More extras: big-game graphic, X post or Facebook video</summary>
+        <div class="grid2">
+          <div><label for="e-ml">Home team</label><input type="text" id="e-ml" placeholder="Texas"></div>
+          <div><label for="e-mlr">Home rank</label><input type="text" id="e-mlr" placeholder="#2"></div>
+          <div><label for="e-mr">Opponent</label><input type="text" id="e-mr" placeholder="Nebraska"></div>
+          <div><label for="e-mrr">Opponent rank</label><input type="text" id="e-mrr" placeholder="#3"></div>
+        </div>
+        <label for="e-mw">When / where</label><input type="text" id="e-mw" placeholder="Friday 7 PM · Gallagher-Iba Arena · ESPNU">
+        <label for="e-em">Embed an X post or Facebook video (paste its link — shows it with credit)</label><input type="url" id="e-em" placeholder="https://x.com/... or https://www.facebook.com/.../videos/...">
+        <p class="hint">Fill in both teams to show the matchup graphic. Works best in the Feature spot.</p>
+      </details>
+    <div class="actions"><button type="button" id="e-cancel">Cancel</button><button type="submit" class="primary">Done</button></div>
+  </form>
+</div>
+
+<script src="/admin/admin.js?v=21"></script>
+</body>
+</html>

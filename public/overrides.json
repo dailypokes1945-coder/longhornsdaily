@@ -1,0 +1,5 @@
+{
+  "_about": "Extra headlines added outside the editor. Each story needs slot (top, banner, feature, left, center, right), order, headline and url. Delete a story here to remove it. \"moves\" changes the slot/order of an existing story by url, starting at \"from\".",
+  "stories": [],
+  "moves": []
+}

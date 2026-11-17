@@ -1,0 +1,54 @@
+{
+ "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
+ "updatedAt": "2026-11-17T22:30:00Z",
+ "ticker": "THU: Hoops vs. Southern Utah, 7 PM ★ FRI: Volleyball opens SEC Tournament, Savannah ★ SAT: Arkansas in Austin, 2:30 PM, ESPN",
+ "tickerItems": [
+  {
+   "text": "THU: Hoops vs. Southern Utah, 7 PM"
+  },
+  {
+   "text": "FRI: Volleyball opens SEC Tournament, Savannah"
+  },
+  {
+   "text": "SAT: Arkansas in Austin, 2:30 PM, ESPN"
+  }
+ ],
+ "expired": [],
+ "stories": [
+  {
+   "id": "a20261117-1",
+   "slot": "left",
+   "headline": "Kiffin: LSU outgained Texas 366-273 and still lost",
+   "url": "https://clutchpoints.com/ncaa-football/lsu-football-news-lane-kiffin-disappointed-tigers-lost-texas-despite-outplaying-them-in-many-areas",
+   "source": "ClutchPoints"
+  },
+  {
+   "id": "a20261117-2",
+   "slot": "left",
+   "headline": "Holly Rowe ribs Arch over his No Shave November look",
+   "url": "https://clutchpoints.com/ncaa-football/texas-news-holly-rowe-texas-arch-manning-facial-hair-diss-lsu",
+   "source": "ClutchPoints"
+  },
+  {
+   "id": "a20261117-3",
+   "slot": "right",
+   "headline": "Johnson drops 26 as Horns survive Baylor 75-72 in San Antonio",
+   "url": "https://fieldlevelmedia.com/ncaab/johnsons-26-points-help-no-7-texas-outlast-baylor-in-wild-clash/",
+   "source": "Field Level Media"
+  },
+  {
+   "id": "a20261117-4",
+   "slot": "right",
+   "headline": "Volleyball sweeps LSU to close the regular season at Gregory Gym",
+   "url": "https://lsusports.net/news/2026/11/15/lsu-falls-to-no-16-texas-3-0",
+   "source": "LSU Athletics"
+  },
+  {
+   "id": "a20261117-5",
+   "slot": "center",
+   "headline": "Hogs haven't won in Austin since 2003",
+   "url": "https://www.wholehogsports.com/news/2026/nov/09/arkansas-football-texas-kickoff-time-sec-tv-channel/",
+   "source": "WholeHogSports"
+  }
+ ]
+}
