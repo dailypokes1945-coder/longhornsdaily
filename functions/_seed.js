@@ -1,6 +1,6 @@
 // Starting content shown until the first save from /admin.
 export const SEED = {
-  "ticker": "THU: Hoops vs. Southern Utah, 7 PM ★ FRI: Volleyball opens SEC Tournament, Savannah ★ SAT: Arkansas in Austin, 2:30 PM, ESPN",
+  "ticker": "THU: Hoops vs. Southern Utah, 7 PM ★ NOV 20-24: Volleyball at SEC Tournament, Savannah ★ SAT: Arkansas in Austin, 2:30 PM, ESPN",
   "sponsor": {
     "on": false,
     "name": "",
