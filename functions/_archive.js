@@ -76,6 +76,7 @@ function shell({ title, description, canonical, body }) {
 <meta property="og:url" content="${esc(canonical)}">
 <meta property="og:image" content="https://longhornsdaily.com/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@dailylonghorns">
 <meta name="theme-color" content="#BF5700">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon-96.png" type="image/png" sizes="96x96">

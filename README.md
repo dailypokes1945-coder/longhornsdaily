@@ -102,7 +102,7 @@ Context for a new Claude session picking this up (moving to a new Claude account
 - The GitHub repo is `dailypokes1945-coder/longhornsdaily` (private). Same stack as Sooners Daily: static files in `public/` plus Cloudflare Pages Functions in `functions/`. KV binding `SITE` holds one JSON doc under the key `site`. `/admin*` sits behind Cloudflare Access, and `functions/_access.js` also verifies the `Cf-Access-Jwt-Assertion` RS256 JWT (signature, exp, aud, email allowlist).
 - `functions/index.js` + `_render.js` serve `/` with the headlines already in the HTML; if you change the front page markup in `index.html` or the rendering in `app.js`, keep `_render.js` in step.
 - Colors: burnt orange `#BF5700` (CSS variable `--orange`) on white. Columns: `left` = GRIDIRON (football), `center` = AROUND THE PROGRAM (recruiting, program news, opponents), `right` = HOOPS · NET · DIAMOND (basketball, volleyball, baseball, softball and other sports).
-- The X handle isn't set yet. When the owner has one, add `<meta name="twitter:site">` to `public/index.html`, `about.html`, `privacy.html` and `functions/_archive.js`, a `sameAs` link in the JSON-LD in `index.html`, and a line on the About page.
+- X handle: @dailylonghorns (twitter:site meta tags, the JSON-LD `sameAs` in `index.html`, and the About page).
 - Gameday look: add football game dates to `GAMEDAYS` in `public/app.js` to turn the whole page burnt orange. Preview with `?theme=gameday`.
 
 ---
