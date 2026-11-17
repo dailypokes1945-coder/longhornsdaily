@@ -33,7 +33,9 @@ export const SEED = {
       "hot": false,
       "source": "AP via FOX 7 Austin",
       "headline": "[DEATH VALLEY DAGGER] Manning hits Brown with 3 seconds left, Horns stun LSU 22-21",
-      "url": "https://www.fox7austin.com/sports/no-8-texas-aims-firm-up-cfp-credentials-no-24-lsu"
+      "url": "https://www.fox7austin.com/sports/no-8-texas-aims-firm-up-cfp-credentials-no-24-lsu",
+      "image": "/img/death-valley-dagger-lsu.jpg",
+      "imageCredit": "Photo: dispatch.com"
     },
     {
       "id": "top1",
