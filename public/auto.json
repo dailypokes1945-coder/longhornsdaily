@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-18T11:21:10Z",
+  "updatedAt": "2026-11-18T17:57:55Z",
   "ticker": "TONIGHT: No. 6 women's hoops at Green Bay, 6:30 PM, ESPN+ ★ THU: No. 6 Hoops vs. Southern Utah, 7 PM, SEC Network+ ★ FRI: Soccer vs. Houston, NCAA 1st Rd., 6 PM, ESPN+",
   "tickerItems": [
     {
@@ -16,13 +16,64 @@
   "expired": [],
   "stories": [
     {
+      "id": "a20261118-14",
+      "slot": "left",
+      "headline": "Horns climb to No. 5 in CFP rankings; Sark: 'We've got a hungry team'",
+      "url": "https://fieldlevelmedia.com/ncaaf/no-5-texas-needs-to-focus-on-arkansas-in-clash-of-old-rivals/",
+      "source": "Field Level Media"
+    },
+    {
+      "id": "a20261118-13",
+      "slot": "left",
+      "headline": "Students who haven't used their Big Ticket get first crack at Arkansas seats",
+      "url": "https://thedailytexan.com/2026/11/16/big-ticket-holders-who-have-not-claimed-a-football-ticket-offered-access-to-arkansas-game/",
+      "source": "The Daily Texan",
+      "image": "https://thedailytexan.com/wp-content/uploads/2026/11/11-5-26_SophiaColumn_YsaMendoza.jpg",
+      "imageCredit": "Photo: The Daily Texan"
+    },
+    {
+      "id": "a20261118-12",
+      "slot": "center",
+      "headline": "Butler School's 43-year-old pipe organ back in Bates Recital Hall after Ohio rebuild",
+      "url": "https://thedailytexan.com/2026/11/17/butler-school-of-music-restores-43-year-old-concert-pipe-organ/",
+      "source": "The Daily Texan",
+      "image": "https://thedailytexan.com/wp-content/uploads/2026/11/11-16-26_Organ_JulesLangert3.jpg",
+      "imageCredit": "Photo: The Daily Texan"
+    },
+    {
+      "id": "a20261118-11",
+      "slot": "right",
+      "headline": "Ojakaar rallies in three sets to reach NCAA singles round of 32; Berkieta falls",
+      "url": "https://texaslonghorns.com/news/2026/11/17/mens-tennis-mens-tennis-ojakaar-advances-to-ncaa-singles-round-of-32",
+      "source": "Texas Athletics"
+    },
+    {
+      "id": "a20261118-10",
+      "slot": "left",
+      "headline": "Sark on Cam Coleman's no-catch night at LSU: 'He was not 100%'",
+      "url": "https://www.si.com/college/texas/football/steve-sarkisian-addresses-concerns-about-texas-wr-cam-coleman-after-lsu-win",
+      "source": "Longhorns On SI"
+    },
+    {
+      "id": "a20261118-9",
+      "slot": "center",
+      "headline": "Scouting the Hogs: QB KJ Jackson and WR Chris Marshall lead Arkansas into Austin",
+      "url": "https://sports.yahoo.com/articles/no-6-texas-vs-arkansas-165538556.html",
+      "source": "Burnt Orange Nation"
+    },
+    {
+      "id": "a20261118-8",
+      "slot": "right",
+      "headline": "Women's golf signs nation's No. 3 recruiting class",
+      "url": "https://thedailytexan.com/2026/11/17/texas-womens-golf-signs-4-player-2027-recruiting-class-ranked-no-3-nationally/",
+      "source": "The Daily Texan"
+    },
+    {
       "id": "a20261118-7",
       "slot": "center",
       "headline": "Brackenridge Field Lab caught in Lions Muni land swap — UT researchers sound alarm",
       "url": "https://thedailytexan.com/2026/11/16/ut-researchers-students-advocate-for-protection-of-field-laboratory/",
-      "source": "The Daily Texan",
-      "image": "https://thedailytexan.com/wp-content/uploads/2026/11/11-16-26_ACC-Brackenridge_IsaiahRodriguez-7.jpg",
-      "imageCredit": "Photo: The Daily Texan"
+      "source": "The Daily Texan"
     },
     {
       "id": "a20261118-6",
@@ -190,13 +241,6 @@
       "slot": "left",
       "headline": "Holly Rowe ribs Arch over his No Shave November look",
       "url": "https://clutchpoints.com/ncaa-football/texas-news-holly-rowe-texas-arch-manning-facial-hair-diss-lsu",
-      "source": "ClutchPoints"
-    },
-    {
-      "id": "a20261117-1",
-      "slot": "left",
-      "headline": "Kiffin: LSU outgained Texas 366-273 and still lost",
-      "url": "https://clutchpoints.com/ncaa-football/lsu-football-news-lane-kiffin-disappointed-tigers-lost-texas-despite-outplaying-them-in-many-areas",
       "source": "ClutchPoints"
     }
   ]
