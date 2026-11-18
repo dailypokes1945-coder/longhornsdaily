@@ -1,5 +1,5 @@
 (function () {
-  const SLOTS = [["banner", "Banner (big headline)"], ["feature", "Feature (graphic / post)"], ["top", "Top links"], ["left", "Gridiron"], ["center", "Around the Program"], ["right", "Hoops · Mats · Diamond"]];
+  const SLOTS = [["banner", "Banner (big headline)"], ["feature", "Feature (graphic / post)"], ["top", "Top links"], ["left", "Gridiron"], ["center", "The Wire"], ["right", "Hoops · Mats · Diamond"]];
   const $ = (id) => document.getElementById(id);
   let site = null, dirty = false, saving = false, editingId = null, baseUpdatedAt = null;
 
@@ -101,7 +101,7 @@
     const box = $("auto-list"); if (!box) return; box.textContent = "";
     site.hiddenAuto = site.hiddenAuto || [];
     if (!autoStories.length) { const e = document.createElement("div"); e.className = "empty"; e.textContent = "Nothing added yet."; box.appendChild(e); return; }
-    const names = { left: "Gridiron", center: "Around the Program", right: "Hoops · Mats · Diamond" };
+    const names = { left: "Gridiron", center: "The Wire", right: "Hoops · Mats · Diamond" };
     autoStories.forEach(a => {
       const hidden = site.hiddenAuto.includes(a.id);
       const row = document.createElement("div"); row.className = "row"; if (hidden) row.style.opacity = ".45";

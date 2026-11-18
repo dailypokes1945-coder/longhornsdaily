@@ -1,10 +1,10 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-18T01:02:07Z",
-  "ticker": "WED: No. 6 women's hoops at Green Bay, 6:30 PM, ESPN+ ★ THU: No. 6 Hoops vs. Southern Utah, 7 PM, SEC Network+ ★ FRI: Soccer vs. Houston, NCAA 1st Rd., 6 PM, ESPN+",
+  "updatedAt": "2026-11-18T11:21:10Z",
+  "ticker": "TONIGHT: No. 6 women's hoops at Green Bay, 6:30 PM, ESPN+ ★ THU: No. 6 Hoops vs. Southern Utah, 7 PM, SEC Network+ ★ FRI: Soccer vs. Houston, NCAA 1st Rd., 6 PM, ESPN+",
   "tickerItems": [
     {
-      "text": "WED: No. 6 women's hoops at Green Bay, 6:30 PM, ESPN+"
+      "text": "TONIGHT: No. 6 women's hoops at Green Bay, 6:30 PM, ESPN+"
     },
     {
       "text": "THU: No. 6 Hoops vs. Southern Utah, 7 PM, SEC Network+"
@@ -15,6 +15,57 @@
   ],
   "expired": [],
   "stories": [
+    {
+      "id": "a20261118-7",
+      "slot": "center",
+      "headline": "Brackenridge Field Lab caught in Lions Muni land swap — UT researchers sound alarm",
+      "url": "https://thedailytexan.com/2026/11/16/ut-researchers-students-advocate-for-protection-of-field-laboratory/",
+      "source": "The Daily Texan",
+      "image": "https://thedailytexan.com/wp-content/uploads/2026/11/11-16-26_ACC-Brackenridge_IsaiahRodriguez-7.jpg",
+      "imageCredit": "Photo: The Daily Texan"
+    },
+    {
+      "id": "a20261118-6",
+      "slot": "center",
+      "headline": "State board votes to shrink college core from 42 to 30 hours",
+      "url": "https://thedailytexan.com/2026/11/17/texas-approves-reworking-statewide-core-curriculum/",
+      "source": "The Daily Texan"
+    },
+    {
+      "id": "a20261118-5",
+      "slot": "center",
+      "headline": "Ex-Longhorn Tommy Morrison ties for 18th in pro debut at Austin Championship",
+      "url": "https://thedailytexan.com/2026/11/17/tommy-morrison-impresses-home-crowd-at-austin-championship/",
+      "source": "The Daily Texan"
+    },
+    {
+      "id": "a20261118-4",
+      "slot": "right",
+      "headline": "Volleyball lands No. 4 national hitter Ireland Real in 2027 class",
+      "url": "https://thedailytexan.com/2026/11/17/a-glimpse-into-texas-volleyballs-2027-28-roster/",
+      "source": "The Daily Texan"
+    },
+    {
+      "id": "a20261118-3",
+      "slot": "right",
+      "headline": "Unbeaten No. 6 Horns (4-0) host Southern Utah Thursday at Moody",
+      "url": "https://texaslonghorns.com/news/2026/11/17/no-6-6-mens-basketball-preview-southern-utah",
+      "source": "Texas Athletics"
+    },
+    {
+      "id": "a20261118-2",
+      "slot": "left",
+      "headline": "Bohls: The old 'Big Shootout' with Arkansas isn't even a game of the week anymore",
+      "url": "https://sports.yahoo.com/articles/texas-arkansas-rivalry-produced-big-125800967.html",
+      "source": "Houston Chronicle via Yahoo Sports"
+    },
+    {
+      "id": "a20261118-1",
+      "slot": "left",
+      "headline": "Sark 15-1 in his last 16 November games; Hogs (4-6) up next",
+      "url": "https://www.orangebloods.com/2026/11/17/texas-arkansas-schedule/",
+      "source": "Orangebloods"
+    },
     {
       "id": "a20261117-21",
       "slot": "left",

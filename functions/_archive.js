@@ -103,7 +103,7 @@ ${body}
 const SECTIONS = [
   ["TOP STORIES", ["banner", "feature", "top"]],
   ["GRIDIRON", ["left"]],
-  ["AROUND THE PROGRAM", ["center"]],
+  ["THE WIRE", ["center"]],
   ["HOOPS · NET · DIAMOND", ["right"]]
 ];
 
