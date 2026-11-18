@@ -81,8 +81,9 @@
       </div>
 
       <div class="grid2" style="margin-top:10px">
-          <div><label for="a-im">Photo (your own photos only)</label>
+          <div><label for="a-im">Photo (your own, or link the article's photo)</label>
             <label class="upload" for="a-file">📷 Upload photo</label><input type="file" id="a-file" accept="image/*" hidden>
+            <button type="button" class="upload" id="a-ogimg" style="border:0">🔗 Use article photo</button>
             <span class="upmsg" id="a-upmsg"></span>
             <input type="text" id="a-im" placeholder="or paste a photo link: https://..." style="margin-top:6px"></div>
           <div><label for="a-ic">Photo credit</label><input type="text" id="a-ic" placeholder="Photo: Longhorns Daily"></div>
@@ -110,7 +111,7 @@
 
   <section>
     <h2>Added automatically this morning</h2>
-    <p class="hint" style="margin-top:0">The 5 AM update adds these under your stories in each column. It never touches the banner, feature or top links. Hide any you don't want, then Publish.</p>
+    <p class="hint" style="margin-top:0">The 5 AM update adds these under your stories in each column. It never touches the banner, feature or top links. Hide any you don't want, or click edit to change the headline, link or photo (it becomes one of your stories, in the same spot). Then Publish.</p>
     <div id="auto-list"><div class="empty">Loading…</div></div>
     <h3 style="margin-top:14px">Expired (game's over): hidden from the columns</h3>
     <p class="hint">Each morning, stories about games that already happened are hidden from the three columns. Your banner, feature and top links are never touched. Click "keep" to put one back.</p>
@@ -179,8 +180,9 @@
     <label for="e-url">Link</label><input id="e-url" type="url" required>
     <label for="e-source">Source</label><input id="e-source" type="text">
       <div class="grid2" style="margin-top:10px">
-          <div><label for="e-im">Photo (your own photos only)</label>
+          <div><label for="e-im">Photo (your own, or link the article's photo)</label>
             <label class="upload" for="e-file">📷 Upload photo</label><input type="file" id="e-file" accept="image/*" hidden>
+            <button type="button" class="upload" id="e-ogimg" style="border:0">🔗 Use article photo</button>
             <span class="upmsg" id="e-upmsg"></span>
             <input type="text" id="e-im" placeholder="or paste a photo link: https://..." style="margin-top:6px"></div>
           <div><label for="e-ic">Photo credit</label><input type="text" id="e-ic" placeholder="Photo: Longhorns Daily"></div>
@@ -200,6 +202,6 @@
   </form>
 </div>
 
-<script src="/admin/admin.js?v=21"></script>
+<script src="/admin/admin.js?v=22"></script>
 </body>
 </html>

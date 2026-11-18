@@ -1,7 +1,7 @@
 (function () {
   const SLOTS = [["banner", "Banner (big headline)"], ["feature", "Feature (graphic / post)"], ["top", "Top links"], ["left", "Gridiron"], ["center", "The Wire"], ["right", "Hoops · Mats · Diamond"]];
   const $ = (id) => document.getElementById(id);
-  let site = null, dirty = false, saving = false, editingId = null, baseUpdatedAt = null;
+  let site = null, dirty = false, saving = false, editingId = null, editingAuto = null, baseUpdatedAt = null;
 
   const setMsg = (t) => { $("msg").textContent = t; };
   function markDirty() { dirty = true; $("publish").disabled = false; setMsg("Unpublished changes"); }
@@ -48,6 +48,26 @@
         if (pre === "e") markDirty();
       } catch (e) { msg.textContent = "Upload failed: " + e.message; }
       input.value = "";
+    });
+  }
+  // "Use article photo": link the story's own lead photo (og:image) — nothing is downloaded or stored
+  function wireArticlePhoto(pre) {
+    const btn = $(pre + "-ogimg"); if (!btn) return;
+    btn.addEventListener("click", async () => {
+      const msg = $(pre + "-upmsg");
+      const url = safeUrl($(pre + "-url").value.trim());
+      if (!url) { msg.textContent = "Add the story's link first"; return; }
+      msg.textContent = "Finding the article's photo…"; btn.disabled = true;
+      try {
+        const res = await fetch("/admin/api/ogimage?url=" + encodeURIComponent(url), { credentials: "same-origin", cache: "no-store" });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok || !data.image) throw new Error(data.error || ("Error " + res.status));
+        $(pre + "-im").value = data.image;
+        if (!$(pre + "-ic").value.trim()) $(pre + "-ic").value = data.credit || "";
+        msg.textContent = "✓ Article photo linked" + (data.alt ? " — shows: " + data.alt : "");
+        if (pre === "e") markDirty();
+      } catch (e) { msg.textContent = "No photo: " + e.message; }
+      btn.disabled = false;
     });
   }
   const newId = () => "s" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
@@ -102,19 +122,27 @@
     site.hiddenAuto = site.hiddenAuto || [];
     if (!autoStories.length) { const e = document.createElement("div"); e.className = "empty"; e.textContent = "Nothing added yet."; box.appendChild(e); return; }
     const names = { left: "Gridiron", center: "The Wire", right: "Hoops · Mats · Diamond" };
-    autoStories.forEach(a => {
-      const hidden = site.hiddenAuto.includes(a.id);
+    autoStories.forEach((a, idx) => {
+      const mine = site.stories.find(s => s.url === a.url);
+      const hidden = site.hiddenAuto.includes(a.id) && !mine;
       const row = document.createElement("div"); row.className = "row"; if (hidden) row.style.opacity = ".45";
       const hd = document.createElement("div"); hd.className = "h";
       const l = document.createElement("a"); l.textContent = a.headline; l.href = safeUrl(a.url) || "#"; l.target = "_blank"; l.rel = "noopener";
-      const sm = document.createElement("small"); sm.textContent = (names[a.slot] || a.slot) + " · " + (a.source || "") + (hidden ? " · HIDDEN" : "");
+      const sm = document.createElement("small"); sm.textContent = (names[a.slot] || a.slot) + " · " + (a.source || "") + (a.image ? " · [photo]" : "") + (mine ? " · EDITED: now one of your stories above (" + (names[mine.slot] || mine.slot) + ")" : "") + (hidden ? " · HIDDEN" : "");
       hd.append(l, sm); row.appendChild(hd);
       const btn = document.createElement("button"); btn.type = "button"; btn.textContent = hidden ? "show" : "hide";
       btn.addEventListener("click", () => {
         site.hiddenAuto = hidden ? site.hiddenAuto.filter(x => x !== a.id) : site.hiddenAuto.concat(a.id);
         markDirty(); renderAuto();
       });
-      row.appendChild(btn); box.appendChild(row);
+      const ed = document.createElement("button"); ed.type = "button"; ed.textContent = "edit";
+      ed.addEventListener("click", () => {
+        if (mine) { openEdit(mine); return; }
+        // Editing makes it your own story: same column and spot, and the morning update can't change it
+        openEdit({ id: newId(), slot: a.slot, headline: a.headline, url: a.url, source: a.source || "", image: a.image || "", imageCredit: a.imageCredit || "", embed: a.embed || "", red: !!a.red, hot: false, order: (a.pin ? -2000 : -1000) + idx }, a);
+      });
+      if (!mine) row.appendChild(btn);
+      row.appendChild(ed); box.appendChild(row);
     });
     renderExpired();
   }
@@ -200,7 +228,7 @@
     $("bm").addEventListener("click", (e) => e.preventDefault());
 
     renderSlots(); renderShopLinks(); loadAuto();
-    wireUpload("a");
+    wireUpload("a"); wireArticlePhoto("a");
 
     // Prefill from the quick-add bookmark
     const q = new URLSearchParams(location.search);
@@ -216,22 +244,28 @@
   function alertBox(t) { setMsg(t); }
 
   // Edit dialog
-  function openEdit(s) {
-    editingId = s.id;
+  function openEdit(s, auto) {
+    editingId = s.id; editingAuto = auto ? { story: s, auto } : null;
     $("e-headline").value = s.headline; $("e-url").value = s.url; $("e-source").value = s.source || "";
     fillExtras("e", s); $("e-upmsg").textContent = "";
     $("dlg").classList.add("open"); $("e-headline").focus();
   }
   wireUpload("e");
-  $("e-cancel").addEventListener("click", () => $("dlg").classList.remove("open"));
+  wireArticlePhoto("e");
+  $("e-cancel").addEventListener("click", () => { editingAuto = null; $("dlg").classList.remove("open"); });
   $("edit").addEventListener("submit", (e) => {
     e.preventDefault();
-    const s = site.stories.find(x => x.id === editingId);
+    const s = editingAuto ? editingAuto.story : site.stories.find(x => x.id === editingId);
     const url = safeUrl($("e-url").value.trim());
     if (!s || !url || !$("e-headline").value.trim()) return;
     s.headline = $("e-headline").value.trim(); s.url = url; s.source = $("e-source").value.trim();
     Object.assign(s, readExtras("e"));
-    $("dlg").classList.remove("open"); markDirty(); renderSlots();
+    if (editingAuto) {
+      site.stories.push(s);
+      site.hiddenAuto = (site.hiddenAuto || []).filter(x => x !== editingAuto.auto.id).concat(editingAuto.auto.id);
+      editingAuto = null;
+    }
+    $("dlg").classList.remove("open"); markDirty(); renderSlots(); renderAuto();
   });
 
   $("publish").addEventListener("click", async () => {
