@@ -1,110 +1,152 @@
 {
- "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
- "updatedAt": "2026-11-17T21:53:50Z",
- "ticker": "THU: Hoops vs. Southern Utah, 7 PM ★ NOV 20-24: Volleyball at SEC Tournament, Savannah ★ SAT: Arkansas in Austin, 2:30 PM, ESPN",
- "tickerItems": [
-  {
-   "text": "THU: Hoops vs. Southern Utah, 7 PM"
-  },
-  {
-   "text": "NOV 20-24: Volleyball at SEC Tournament, Savannah"
-  },
-  {
-   "text": "SAT: Arkansas in Austin, 2:30 PM, ESPN"
-  }
- ],
- "expired": [],
- "stories": [
-  {
-   "id": "a20261117-15",
-   "slot": "left",
-   "headline": "[OUT] DT Hero Kanu done for the year after bicep surgery",
-   "url": "https://athlonsports.com/college-football/steve-sarkisian-hero-kanu-season-ending-injury-texas-surgery",
-   "source": "Athlon Sports"
-  },
-  {
-   "id": "a20261117-14",
-   "slot": "center",
-   "headline": "Longhorns' 2027 RB pledge Williams-Callis wraps a 61-TD senior season",
-   "url": "https://hookemheadlines.com/its-time-for-longhorn-fans-to-get-excited-about-landen-williams-callis-era-at-texas",
-   "source": "Hook'Em Headlines"
-  },
-  {
-   "id": "a20261117-13",
-   "slot": "right",
-   "headline": "Freshman Crittendon scores 16 as women's hoops routs Tarleton State 91-35 without Booker",
-   "url": "https://www.thescore.com/wcbk/news/3655103",
-   "source": "AP via theScore"
-  },
-  {
-   "id": "a20261117-12",
-   "slot": "left",
-   "headline": "Sark: \"My back is sore from everybody patting it\" — warns of a letdown vs. Hogs",
-   "url": "https://www.si.com/college/texas/football/steve-sarkisian-warns-texas-is-in-dangerous-spot-after-lsu-victory",
-   "source": "Texas Longhorns On SI"
-  },
-  {
-   "id": "a20261117-11",
-   "slot": "center",
-   "headline": "No. 6 in the CFP, No. 8 in AP: is the SEC title game the only way up?",
-   "url": "https://hookemheadlines.com/sec-championship-may-be-texas-longhorns-only-real-chance-to-climb-ap-poll-or-cfp-rankings",
-   "source": "Hook'Em Headlines"
-  },
-  {
-   "id": "a20261117-10",
-   "slot": "left",
-   "headline": "LB Justin Cryer hobbled by ankle in Death Valley",
-   "url": "https://hookemheadlines.com/justin-cryers-exit-before-halftime-vs-lsu-is-last-thing-struggling-texas-longhorns-need",
-   "source": "Hook'Em Headlines"
-  },
-  {
-   "id": "a20261117-9",
-   "slot": "center",
-   "headline": "CFP chair on Texas at No. 6: four big wins outweigh two losses",
-   "url": "https://thedailytexan.com/2026/11/12/texas-continues-to-move-up-in-cfp-rankings-behind-strength-of-wins/",
-   "source": "The Daily Texan"
-  },
-  {
-   "id": "a20261117-8",
-   "slot": "left",
-   "headline": "Vegas opens Horns as 20.5-point favorites over Arkansas",
-   "url": "https://hookemheadlines.com/early-odds-project-texas-longhorns-to-secure-expected-blowout-win-over-arkansas",
-   "source": "Hook'Em Headlines"
-  },
-  {
-   "id": "a20261117-5",
-   "slot": "center",
-   "headline": "Hogs haven't won in Austin since 2003",
-   "url": "https://www.wholehogsports.com/news/2026/nov/09/arkansas-football-texas-kickoff-time-sec-tv-channel/",
-   "source": "WholeHogSports"
-  },
-  {
-   "id": "a20261117-4",
-   "slot": "right",
-   "headline": "Volleyball sweeps LSU to close the regular season at Gregory Gym",
-   "url": "https://lsusports.net/news/2026/11/15/lsu-falls-to-no-16-texas-3-0",
-   "source": "LSU Athletics"
-  },
-  {
-   "id": "a20261117-3",
-   "slot": "right",
-   "headline": "Johnson drops 26 as Horns survive Baylor 75-72 in San Antonio",
-   "url": "https://fieldlevelmedia.com/ncaab/johnsons-26-points-help-no-7-texas-outlast-baylor-in-wild-clash/",
-   "source": "Field Level Media"
-  },
-  {
-   "id": "a20261117-2",
-   "slot": "left",
-   "headline": "Holly Rowe ribs Arch over his No Shave November look",
-   "url": "https://clutchpoints.com/ncaa-football/texas-news-holly-rowe-texas-arch-manning-facial-hair-diss-lsu",
-   "source": "ClutchPoints"
-  },
-  {
-   "id": "a20261117-1",
-   "slot": "left",
-   "headline": "Kiffin: LSU outgained Texas 366-273 and still lost",
-   "url": "https://clutchpoints.com/ncaa-football/lsu-football-news-lane-kiffin-disappointed-tigers-lost-texas-despite-outplaying-them-in-many-areas",
-   "source": "ClutchPoints"
-  }
- ]
+  "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
+  "updatedAt": "2026-11-18T01:02:07Z",
+  "ticker": "WED: No. 6 women's hoops at Green Bay, 6:30 PM, ESPN+ ★ THU: No. 6 Hoops vs. Southern Utah, 7 PM, SEC Network+ ★ FRI: Soccer vs. Houston, NCAA 1st Rd., 6 PM, ESPN+",
+  "tickerItems": [
+    {
+      "text": "WED: No. 6 women's hoops at Green Bay, 6:30 PM, ESPN+"
+    },
+    {
+      "text": "THU: No. 6 Hoops vs. Southern Utah, 7 PM, SEC Network+"
+    },
+    {
+      "text": "FRI: Soccer vs. Houston, NCAA 1st Rd., 6 PM, ESPN+"
+    }
+  ],
+  "expired": [],
+  "stories": [
+    {
+      "id": "a20261117-21",
+      "slot": "left",
+      "headline": "Arch will walk on Senior Day — but says that doesn't mean he's leaving",
+      "url": "https://sports.yahoo.com/articles/arch-manning-seems-hint-nfl-165315506.html",
+      "source": "The Spun via Yahoo Sports"
+    },
+    {
+      "id": "a20261117-20",
+      "slot": "right",
+      "headline": "Booker crosses 2,000 points; No. 6 women's hoops at Green Bay Wednesday",
+      "url": "https://texaslonghorns.com/news/2026/11/17/womens-basketball-no-6-womens-basketball-preview-green-bay",
+      "source": "Texas Athletics"
+    },
+    {
+      "id": "a20261117-19",
+      "slot": "left",
+      "headline": "Hogs ballhawk Joker Johnson, 2 picks vs. South Carolina, gets his shot at Arch",
+      "url": "https://www.si.com/college/arkansas/football/can-arkansas-joker-johnson-bait-arch-manning-texas-into-trouble",
+      "source": "Arkansas Razorbacks On SI"
+    },
+    {
+      "id": "a20261117-18",
+      "slot": "center",
+      "headline": "Hogs coach Silverfield on Texas: 'Not a whole lot of holes to be punched'",
+      "url": "https://www.si.com/college/arkansas/football/what-did-ryan-silverfield-say-ahead-of-arkansas-texas-rivalry-game",
+      "source": "Arkansas Razorbacks On SI"
+    },
+    {
+      "id": "a20261117-17",
+      "slot": "right",
+      "headline": "No. 5 seed soccer hosts Houston Friday in NCAA first round",
+      "url": "https://texaslonghorns.com/news/2026/11/16/soccer-to-host-ncaa-tournament-first-round-match-against-houston",
+      "source": "Texas Athletics"
+    },
+    {
+      "id": "a20261117-16",
+      "slot": "center",
+      "headline": "Softball inks 5-star catcher Lolo Gamble in top-12 2027 class",
+      "url": "https://texaslonghorns.com/news/2026/11/13/softball-signs-three-on-national-signing-day",
+      "source": "Texas Athletics"
+    },
+    {
+      "id": "a20261117-15",
+      "slot": "left",
+      "headline": "[OUT] DT Hero Kanu done for the year after bicep surgery",
+      "url": "https://athlonsports.com/college-football/steve-sarkisian-hero-kanu-season-ending-injury-texas-surgery",
+      "source": "Athlon Sports"
+    },
+    {
+      "id": "a20261117-14",
+      "slot": "center",
+      "headline": "Longhorns' 2027 RB pledge Williams-Callis wraps a 61-TD senior season",
+      "url": "https://hookemheadlines.com/its-time-for-longhorn-fans-to-get-excited-about-landen-williams-callis-era-at-texas",
+      "source": "Hook'Em Headlines"
+    },
+    {
+      "id": "a20261117-13",
+      "slot": "right",
+      "headline": "Freshman Crittendon scores 16 as women's hoops routs Tarleton State 91-35 without Booker",
+      "url": "https://www.thescore.com/wcbk/news/3655103",
+      "source": "AP via theScore"
+    },
+    {
+      "id": "a20261117-12",
+      "slot": "left",
+      "headline": "Sark: \"My back is sore from everybody patting it\" — warns of a letdown vs. Hogs",
+      "url": "https://www.si.com/college/texas/football/steve-sarkisian-warns-texas-is-in-dangerous-spot-after-lsu-victory",
+      "source": "Texas Longhorns On SI"
+    },
+    {
+      "id": "a20261117-11",
+      "slot": "center",
+      "headline": "No. 6 in the CFP, No. 8 in AP: is the SEC title game the only way up?",
+      "url": "https://hookemheadlines.com/sec-championship-may-be-texas-longhorns-only-real-chance-to-climb-ap-poll-or-cfp-rankings",
+      "source": "Hook'Em Headlines"
+    },
+    {
+      "id": "a20261117-10",
+      "slot": "left",
+      "headline": "LB Justin Cryer hobbled by ankle in Death Valley",
+      "url": "https://hookemheadlines.com/justin-cryers-exit-before-halftime-vs-lsu-is-last-thing-struggling-texas-longhorns-need",
+      "source": "Hook'Em Headlines"
+    },
+    {
+      "id": "a20261117-9",
+      "slot": "center",
+      "headline": "CFP chair on Texas at No. 6: four big wins outweigh two losses",
+      "url": "https://thedailytexan.com/2026/11/12/texas-continues-to-move-up-in-cfp-rankings-behind-strength-of-wins/",
+      "source": "The Daily Texan"
+    },
+    {
+      "id": "a20261117-8",
+      "slot": "left",
+      "headline": "Vegas opens Horns as 20.5-point favorites over Arkansas",
+      "url": "https://hookemheadlines.com/early-odds-project-texas-longhorns-to-secure-expected-blowout-win-over-arkansas",
+      "source": "Hook'Em Headlines"
+    },
+    {
+      "id": "a20261117-5",
+      "slot": "center",
+      "headline": "Hogs haven't won in Austin since 2003",
+      "url": "https://www.wholehogsports.com/news/2026/nov/09/arkansas-football-texas-kickoff-time-sec-tv-channel/",
+      "source": "WholeHogSports"
+    },
+    {
+      "id": "a20261117-4",
+      "slot": "right",
+      "headline": "Volleyball sweeps LSU to close the regular season at Gregory Gym",
+      "url": "https://lsusports.net/news/2026/11/15/lsu-falls-to-no-16-texas-3-0",
+      "source": "LSU Athletics"
+    },
+    {
+      "id": "a20261117-3",
+      "slot": "right",
+      "headline": "Johnson drops 26 as Horns survive Baylor 75-72 in San Antonio",
+      "url": "https://fieldlevelmedia.com/ncaab/johnsons-26-points-help-no-7-texas-outlast-baylor-in-wild-clash/",
+      "source": "Field Level Media"
+    },
+    {
+      "id": "a20261117-2",
+      "slot": "left",
+      "headline": "Holly Rowe ribs Arch over his No Shave November look",
+      "url": "https://clutchpoints.com/ncaa-football/texas-news-holly-rowe-texas-arch-manning-facial-hair-diss-lsu",
+      "source": "ClutchPoints"
+    },
+    {
+      "id": "a20261117-1",
+      "slot": "left",
+      "headline": "Kiffin: LSU outgained Texas 366-273 and still lost",
+      "url": "https://clutchpoints.com/ncaa-football/lsu-football-news-lane-kiffin-disappointed-tigers-lost-texas-despite-outplaying-them-in-many-areas",
+      "source": "ClutchPoints"
+    }
+  ]
 }
