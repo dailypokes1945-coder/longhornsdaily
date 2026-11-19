@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-19T17:55:40Z",
+  "updatedAt": "2026-11-19T17:56:17Z",
   "ticker": "TONIGHT: No. 6 Hoops vs. Southern Utah, 7 PM, SEC Network+ ★ FRI: Soccer vs. Houston, NCAA 1st Rd., 6 PM, ESPN+ ★ SAT: No. 5 Texas vs. Arkansas, 2:30 PM",
   "tickerItems": [
     {
@@ -20,6 +20,13 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261119-10",
+      "slot": "left",
+      "headline": "DT Hero Kanu done for the year after biceps surgery; Sark: he'll be 'sorely missed'",
+      "url": "https://sports.yahoo.com/articles/sarkisian-warns-against-complacency-provides-211304676.html",
+      "source": "KXAN via Yahoo Sports"
+    },
     {
       "id": "a20261119-9",
       "slot": "right",
