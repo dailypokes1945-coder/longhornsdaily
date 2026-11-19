@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-19T11:31:12Z",
+  "updatedAt": "2026-11-19T17:55:40Z",
   "ticker": "TONIGHT: No. 6 Hoops vs. Southern Utah, 7 PM, SEC Network+ ★ FRI: Soccer vs. Houston, NCAA 1st Rd., 6 PM, ESPN+ ★ SAT: No. 5 Texas vs. Arkansas, 2:30 PM",
   "tickerItems": [
     {
@@ -20,6 +20,27 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261119-9",
+      "slot": "right",
+      "headline": "No. 1 men's swimmers smash 2019 pool record in 400 medley relay at Jamail",
+      "url": "https://texaslonghorns.com/news/2026/11/18/mens-swimming-and-diving-no-1-mens-swimming-sets-pool-record-in-400-medley-relay-at-texas-swimming-invitational",
+      "source": "Texas Athletics"
+    },
+    {
+      "id": "a20261119-8",
+      "slot": "center",
+      "headline": "West Campus' new state rep: Garibay wants students to feel 'our office is their office'",
+      "url": "https://thedailytexan.com/2026/11/18/uts-state-rep-elect-talks-student-representation-affordability-academic-freedom/",
+      "source": "The Daily Texan"
+    },
+    {
+      "id": "a20261119-7",
+      "slot": "left",
+      "headline": "Simmons now a Nagurski AND Lombardi finalist — 10.5 sacks in 8 games",
+      "url": "https://texaslonghorns.com/news/2026/11/19/no-8-8-5-footballs-simmons-named-nagurski-trophy-finalist",
+      "source": "Texas Athletics"
+    },
     {
       "id": "a20261119-6",
       "slot": "right",
