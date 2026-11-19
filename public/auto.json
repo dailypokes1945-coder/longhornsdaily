@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-18T17:57:55Z",
+  "updatedAt": "2026-11-19T00:57:05Z",
   "ticker": "TONIGHT: No. 6 women's hoops at Green Bay, 6:30 PM, ESPN+ ★ THU: No. 6 Hoops vs. Southern Utah, 7 PM, SEC Network+ ★ FRI: Soccer vs. Houston, NCAA 1st Rd., 6 PM, ESPN+",
   "tickerItems": [
     {
@@ -15,6 +15,50 @@
   ],
   "expired": [],
   "stories": [
+    {
+      "id": "a20261118-20",
+      "slot": "left",
+      "headline": "Sark hasn't forgotten 40-21 in Fayetteville: 'A lot of us were there in '21'",
+      "url": "https://sports.yahoo.com/articles/texas-turns-attention-arkansas-rivalry-140000658.html",
+      "source": "KXAN via Yahoo Sports"
+    },
+    {
+      "id": "a20261118-19",
+      "slot": "left",
+      "headline": "Bishop out-snapped Coleman 16-3 in LSU's fourth quarter — bigger role coming vs. Hogs?",
+      "url": "https://sports.yahoo.com/articles/texas-longhorns-watch-vs-arkansas-215222794.html",
+      "source": "Longhorns Wire via Yahoo Sports"
+    },
+    {
+      "id": "a20261118-18",
+      "slot": "right",
+      "headline": "Freshman Sterling 11-of-17 from three; Miller: 'Both guys can really shoot'",
+      "url": "https://sports.yahoo.com/articles/both-guys-shoot-sean-miller-210500099.html",
+      "source": "Austin American-Statesman via Yahoo Sports"
+    },
+    {
+      "id": "a20261118-17",
+      "slot": "center",
+      "headline": "The Hogs' upset case: Arch's 10 picks and KJ Jackson-to-Chris Marshall",
+      "url": "https://sports.yahoo.com/articles/3-reasons-arkansas-cover-against-212354261.html",
+      "source": "SEC Country via Yahoo Sports"
+    },
+    {
+      "id": "a20261118-16",
+      "slot": "right",
+      "headline": "No. 15 volleyball gets No. 4 seed and a double bye — opens SEC tourney Sunday in Savannah",
+      "url": "https://www.wjcl.com/article/sec-volleyball-tournament-bracket-set-as-championship-returns-to-savannah/74445212",
+      "source": "WJCL"
+    },
+    {
+      "id": "a20261118-15",
+      "slot": "center",
+      "headline": "30-story, 300-unit student tower planned on Rio Grande as city weighs razing 1920s houses",
+      "url": "https://thedailytexan.com/2026/11/16/city-considers-west-campus-demolitions-to-build-student-apartments/",
+      "source": "The Daily Texan",
+      "image": "https://thedailytexan.com/wp-content/uploads/2026/11/11-11-26_WestCampus_JulesLangert4.jpg",
+      "imageCredit": "Photo: The Daily Texan"
+    },
     {
       "id": "a20261118-14",
       "slot": "left",
@@ -36,9 +80,7 @@
       "slot": "center",
       "headline": "Butler School's 43-year-old pipe organ back in Bates Recital Hall after Ohio rebuild",
       "url": "https://thedailytexan.com/2026/11/17/butler-school-of-music-restores-43-year-old-concert-pipe-organ/",
-      "source": "The Daily Texan",
-      "image": "https://thedailytexan.com/wp-content/uploads/2026/11/11-16-26_Organ_JulesLangert3.jpg",
-      "imageCredit": "Photo: The Daily Texan"
+      "source": "The Daily Texan"
     },
     {
       "id": "a20261118-11",
@@ -209,20 +251,6 @@
       "source": "The Daily Texan"
     },
     {
-      "id": "a20261117-8",
-      "slot": "left",
-      "headline": "Vegas opens Horns as 20.5-point favorites over Arkansas",
-      "url": "https://hookemheadlines.com/early-odds-project-texas-longhorns-to-secure-expected-blowout-win-over-arkansas",
-      "source": "Hook'Em Headlines"
-    },
-    {
-      "id": "a20261117-5",
-      "slot": "center",
-      "headline": "Hogs haven't won in Austin since 2003",
-      "url": "https://www.wholehogsports.com/news/2026/nov/09/arkansas-football-texas-kickoff-time-sec-tv-channel/",
-      "source": "WholeHogSports"
-    },
-    {
       "id": "a20261117-4",
       "slot": "right",
       "headline": "Volleyball sweeps LSU to close the regular season at Gregory Gym",
@@ -235,13 +263,6 @@
       "headline": "Johnson drops 26 as Horns survive Baylor 75-72 in San Antonio",
       "url": "https://fieldlevelmedia.com/ncaab/johnsons-26-points-help-no-7-texas-outlast-baylor-in-wild-clash/",
       "source": "Field Level Media"
-    },
-    {
-      "id": "a20261117-2",
-      "slot": "left",
-      "headline": "Holly Rowe ribs Arch over his No Shave November look",
-      "url": "https://clutchpoints.com/ncaa-football/texas-news-holly-rowe-texas-arch-manning-facial-hair-diss-lsu",
-      "source": "ClutchPoints"
     }
   ]
 }
