@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-19T17:56:17Z",
+  "updatedAt": "2026-11-20T00:55:09Z",
   "ticker": "TONIGHT: No. 6 Hoops vs. Southern Utah, 7 PM, SEC Network+ ★ FRI: Soccer vs. Houston, NCAA 1st Rd., 6 PM, ESPN+ ★ SAT: No. 5 Texas vs. Arkansas, 2:30 PM",
   "tickerItems": [
     {
@@ -20,6 +20,34 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261119-14",
+      "slot": "left",
+      "headline": "Arch says he's doing Senior Day — Golden's guess: Saturday is his DKR farewell before the NFL",
+      "url": "https://sports.yahoo.com/articles/arch-manning-playing-last-home-231500154.html",
+      "source": "Austin American-Statesman"
+    },
+    {
+      "id": "a20261119-13",
+      "slot": "left",
+      "headline": "Sark: 'We're in a really dangerous spot' as Horns, winners of four straight, host 4-6 Hogs",
+      "url": "https://spectrumlocalnews.com/tx/south-texas-el-paso/news/2026/11/19/texas-win-streak-has-the-longhorns-aiming-for-playoff-with-old-rival-arkansas-ready-to-play-spoiler",
+      "source": "AP"
+    },
+    {
+      "id": "a20261119-12",
+      "slot": "center",
+      "headline": "Longhorn Lights switched on: South Mall trees glow through Jan. 1",
+      "url": "https://thedailytexan.com/2026/11/19/longhorn-lights-opening-night-celebration/",
+      "source": "The Daily Texan"
+    },
+    {
+      "id": "a20261119-11",
+      "slot": "right",
+      "headline": "No. 5 seed soccer opens NCAA Tournament vs. No. 23 Houston Friday at Myers, 6 PM, ESPN+",
+      "url": "https://texaslonghorns.com/news/2026/11/19/soccer-preview-no-23-nr-houston-ncaa-tournament",
+      "source": "Texas Athletics"
+    },
     {
       "id": "a20261119-10",
       "slot": "left",
@@ -226,13 +254,6 @@
       "headline": "Bohls: The old 'Big Shootout' with Arkansas isn't even a game of the week anymore",
       "url": "https://sports.yahoo.com/articles/texas-arkansas-rivalry-produced-big-125800967.html",
       "source": "Houston Chronicle via Yahoo Sports"
-    },
-    {
-      "id": "a20261118-1",
-      "slot": "left",
-      "headline": "Sark 15-1 in his last 16 November games; Hogs (4-6) up next",
-      "url": "https://www.orangebloods.com/2026/11/17/texas-arkansas-schedule/",
-      "source": "Orangebloods"
     }
   ]
 }
