@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-20T11:25:10Z",
+  "updatedAt": "2026-11-20T17:56:47Z",
   "ticker": "TONIGHT: Soccer vs. Houston, NCAA 1st Rd., 6 PM, ESPN+ ★ SAT: No. 5 Texas vs. Arkansas, 2:30 PM, ESPN ★ SUN: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN",
   "tickerItems": [
     {
@@ -21,6 +21,27 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261120-10",
+      "slot": "right",
+      "headline": "No. 4 seed volleyball gets SEC Tournament bye, opens Sunday 1:30 PM on SECN in Savannah",
+      "url": "https://sports.yahoo.com/articles/where-watch-sec-volleyball-tournament-090001099.html",
+      "source": "The Sporting News via Yahoo Sports"
+    },
+    {
+      "id": "a20261120-9",
+      "slot": "center",
+      "headline": "End of an era on 26th Street: Madam Mam's closing West Campus spot Dec. 18 after 25 years near UT",
+      "url": "https://communityimpact.com/central-austin/dining/madam-mam-s-closing-west-campus-location/",
+      "source": "Community Impact"
+    },
+    {
+      "id": "a20261120-8",
+      "slot": "left",
+      "headline": "Hogs' hometown paper picks Texas 38-17; Horns 20.5-point favorites",
+      "url": "https://sports.yahoo.com/articles/arkansas-football-vs-texas-prediction-110317613.html",
+      "source": "Southwest Times Record via Yahoo Sports"
+    },
     {
       "id": "a20261120-7",
       "slot": "right",
