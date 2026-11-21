@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-20T17:56:47Z",
+  "updatedAt": "2026-11-21T00:55:31Z",
   "ticker": "TONIGHT: Soccer vs. Houston, NCAA 1st Rd., 6 PM, ESPN+ ★ SAT: No. 5 Texas vs. Arkansas, 2:30 PM, ESPN ★ SUN: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN",
   "tickerItems": [
     {
@@ -21,6 +21,34 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261120-14",
+      "slot": "right",
+      "headline": "Southern Indiana (2-4) makes first-ever trip to face unbeaten No. 6 Horns Sunday at Moody, 2 PM, SEC Network+",
+      "url": "https://usiscreamingeagles.com/news/2026/11/20/mens-basketball-usi-enters-sec-territory-for-showdown-with-no-6-texas.aspx",
+      "source": "USI Athletics"
+    },
+    {
+      "id": "a20261120-13",
+      "slot": "right",
+      "headline": "Brick city: Horns have missed 47 free throws in five games, shooting under 70% at the line",
+      "url": "https://hookemheadlines.com/after-offseason-hype-sean-millers-squad-is-struggling-with-one-of-easiest-parts-of-game-texas-longhorns",
+      "source": "Hook 'Em Headlines"
+    },
+    {
+      "id": "a20261120-12",
+      "slot": "center",
+      "headline": "Hogs lose starting RT Bryant Williams; Texas lists Smothers, Goosby, Townsend, Kanu out",
+      "url": "https://www.si.com/college/arkansas/football/arkansas-vs-texas-updated-injury-report-includes-status-of-quincy-rhodes-colin-simmons",
+      "source": "Arkansas Razorbacks On SI"
+    },
+    {
+      "id": "a20261120-11",
+      "slot": "left",
+      "headline": "Arch named Golden Arm Award finalist on eve of Senior Day",
+      "url": "https://sports.yahoo.com/articles/texas-makes-announcement-qb-arch-194136449.html",
+      "source": "Heavy via Yahoo Sports"
+    },
     {
       "id": "a20261120-10",
       "slot": "right",
