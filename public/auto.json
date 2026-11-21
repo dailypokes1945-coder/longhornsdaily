@@ -1,17 +1,17 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-21T00:55:31Z",
-  "ticker": "TONIGHT: Soccer vs. Houston, NCAA 1st Rd., 6 PM, ESPN+ ★ SAT: No. 5 Texas vs. Arkansas, 2:30 PM, ESPN ★ SUN: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN",
+  "updatedAt": "2026-11-21T11:19:27Z",
+  "ticker": "TODAY: No. 5 Texas vs. Arkansas, 2:30 PM, ESPN ★ SUN: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN ★ SUN: Volleyball opens SEC Tournament, Savannah, 1:30 PM, SECN",
   "tickerItems": [
     {
-      "text": "TONIGHT: Soccer vs. Houston, NCAA 1st Rd., 6 PM, ESPN+"
-    },
-    {
-      "text": "SAT: No. 5 Texas vs. Arkansas, 2:30 PM, ESPN",
+      "text": "TODAY: No. 5 Texas vs. Arkansas, 2:30 PM, ESPN",
       "tickets": "https://www.stubhub.com/texas-longhorns-football-austin-tickets-11-21-2026/event/159477015/"
     },
     {
       "text": "SUN: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN"
+    },
+    {
+      "text": "SUN: Volleyball opens SEC Tournament, Savannah, 1:30 PM, SECN"
     }
   ],
   "expired": [
@@ -120,104 +120,6 @@
       "headline": "Freshmen go 2-of-10 with 6 turnovers: three worries after the sloppy win",
       "url": "https://www.si.com/college/texas/basketball/3-biggest-concerns-for-texas-longhorns-after-sloppy-win-vs-southern-utah",
       "source": "Texas Longhorns On SI"
-    },
-    {
-      "id": "a20261119-14",
-      "slot": "left",
-      "headline": "Arch says he's doing Senior Day — Golden's guess: Saturday is his DKR farewell before the NFL",
-      "url": "https://sports.yahoo.com/articles/arch-manning-playing-last-home-231500154.html",
-      "source": "Austin American-Statesman"
-    },
-    {
-      "id": "a20261119-13",
-      "slot": "left",
-      "headline": "Sark: 'We're in a really dangerous spot' as Horns, winners of four straight, host 4-6 Hogs",
-      "url": "https://spectrumlocalnews.com/tx/south-texas-el-paso/news/2026/11/19/texas-win-streak-has-the-longhorns-aiming-for-playoff-with-old-rival-arkansas-ready-to-play-spoiler",
-      "source": "AP"
-    },
-    {
-      "id": "a20261119-12",
-      "slot": "center",
-      "headline": "Longhorn Lights switched on: South Mall trees glow through Jan. 1",
-      "url": "https://thedailytexan.com/2026/11/19/longhorn-lights-opening-night-celebration/",
-      "source": "The Daily Texan"
-    },
-    {
-      "id": "a20261119-11",
-      "slot": "right",
-      "headline": "No. 5 seed soccer opens NCAA Tournament vs. No. 23 Houston Friday at Myers, 6 PM, ESPN+",
-      "url": "https://texaslonghorns.com/news/2026/11/19/soccer-preview-no-23-nr-houston-ncaa-tournament",
-      "source": "Texas Athletics"
-    },
-    {
-      "id": "a20261119-10",
-      "slot": "left",
-      "headline": "DT Hero Kanu done for the year after biceps surgery; Sark: he'll be 'sorely missed'",
-      "url": "https://sports.yahoo.com/articles/sarkisian-warns-against-complacency-provides-211304676.html",
-      "source": "KXAN via Yahoo Sports"
-    },
-    {
-      "id": "a20261119-9",
-      "slot": "right",
-      "headline": "No. 1 men's swimmers smash 2019 pool record in 400 medley relay at Jamail",
-      "url": "https://texaslonghorns.com/news/2026/11/18/mens-swimming-and-diving-no-1-mens-swimming-sets-pool-record-in-400-medley-relay-at-texas-swimming-invitational",
-      "source": "Texas Athletics"
-    },
-    {
-      "id": "a20261119-8",
-      "slot": "center",
-      "headline": "West Campus' new state rep: Garibay wants students to feel 'our office is their office'",
-      "url": "https://thedailytexan.com/2026/11/18/uts-state-rep-elect-talks-student-representation-affordability-academic-freedom/",
-      "source": "The Daily Texan"
-    },
-    {
-      "id": "a20261119-7",
-      "slot": "left",
-      "headline": "Simmons now a Nagurski AND Lombardi finalist — 10.5 sacks in 8 games",
-      "url": "https://texaslonghorns.com/news/2026/11/19/no-8-8-5-footballs-simmons-named-nagurski-trophy-finalist",
-      "source": "Texas Athletics"
-    },
-    {
-      "id": "a20261119-6",
-      "slot": "right",
-      "headline": "Booker back, Clark drains six threes as No. 6 women roll Green Bay 89-57",
-      "url": "https://texaslonghorns.com/news/2026/11/18/womens-basketball-no-6-texas-womens-basketball-picks-up-89-57-road-win-at-green-bay",
-      "source": "Texas Athletics"
-    },
-    {
-      "id": "a20261119-5",
-      "slot": "left",
-      "headline": "Colin Simmons, CB Warren Roberson questionable for Arkansas",
-      "url": "https://sports.yahoo.com/articles/colin-simmons-returns-injury-report-012530033.html",
-      "source": "Texas Longhorns On SI via Yahoo Sports"
-    },
-    {
-      "id": "a20261119-4",
-      "slot": "center",
-      "headline": "Justine's team opens French cafe inside the Blanton on Friday — no museum ticket needed",
-      "url": "https://communityimpact.com/central-austin/dining/justine-s-brasserie-team-to-open-new-cafe-at-the-blanton-museum-of-art",
-      "source": "Community Impact"
-    },
-    {
-      "id": "a20261119-3",
-      "slot": "right",
-      "headline": "Horns scoring 93.8 a game, but Sean Miller says they're 'not a finished product'",
-      "url": "https://thedailytexan.com/2026/11/18/sean-miller-sees-room-for-texas-mens-basketball-to-grow/",
-      "source": "The Daily Texan"
-    },
-    {
-      "id": "a20261119-2",
-      "slot": "left",
-      "headline": "Flawed but fearless: Texas is 5-0 against ranked teams",
-      "url": "https://www.austinchronicle.com/sports/learning-to-love-the-flawed-but-fearless-texas-longhorns/",
-      "source": "The Austin Chronicle"
-    },
-    {
-      "id": "a20261119-1",
-      "slot": "center",
-      "headline": "SG pushes plan to let undergrads take one class pass/fail",
-      "url": "https://thedailytexan.com/2026/11/18/sg-executive-alliance-proposes-expanded-university-pass-fail-policy/",
-      "source": "The Daily Texan"
     }
   ]
 }
