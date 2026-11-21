@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-21T11:19:27Z",
+  "updatedAt": "2026-11-21T17:56:07Z",
   "ticker": "TODAY: No. 5 Texas vs. Arkansas, 2:30 PM, ESPN ★ SUN: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN ★ SUN: Volleyball opens SEC Tournament, Savannah, 1:30 PM, SECN",
   "tickerItems": [
     {
@@ -21,6 +21,34 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261121-4",
+      "slot": "right",
+      "headline": "Season over: No. 5 seed soccer falls 4-3 to Houston in OT after Swann's late equalizer",
+      "url": "https://www.secsports.com/news/2026/11/no-5-texas-falls-to-houston-in-overtime-in-ncaa-championship",
+      "source": "SECSports.com"
+    },
+    {
+      "id": "a20261121-3",
+      "slot": "left",
+      "headline": "It's Senior Day for Arch — but he still has a year left. So what's next?",
+      "url": "https://sports.yahoo.com/articles/whats-next-arch-mannings-future-110408378.html",
+      "source": "USA Today"
+    },
+    {
+      "id": "a20261121-2",
+      "slot": "center",
+      "headline": "Flip watch: A&M's 4-star safety JayQuan Snell in Austin for Arkansas game",
+      "url": "https://hookemheadlines.com/texas-looks-to-poach-4-star-jayquan-snell-from-aggies-as-another-rival-comes-to-town",
+      "source": "Hook 'Em Headlines"
+    },
+    {
+      "id": "a20261121-1",
+      "slot": "center",
+      "headline": "New on campus: Justine's crew opens Café Fleurs de Nuit inside the Blanton",
+      "url": "https://austin.culturemap.com/news/restaurants-bars/food-news-openings-shola-escuela/",
+      "source": "CultureMap Austin"
+    },
     {
       "id": "a20261120-14",
       "slot": "right",
