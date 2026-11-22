@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-22T11:25:46Z",
+  "updatedAt": "2026-11-22T17:57:54Z",
   "ticker": "TODAY: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN ★ TODAY: No. 15 Volleyball vs. No. 11 Tennessee, SEC QF, 1:30 PM, SECN ★ TODAY: No. 6 Men vs. Southern Indiana, 2 PM, SECN+",
   "tickerItems": [
     {
@@ -32,6 +32,27 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261122-11",
+      "slot": "right",
+      "headline": "Horns try to beat Tennessee twice: Stafford (4.45 kills a set) leads No. 15 Texas into 1:30 SEC quarterfinal on SECN",
+      "url": "https://www.orangebloods.com/2026/11/21/texas-volleyball-versus-tennessee/",
+      "source": "Orangebloods"
+    },
+    {
+      "id": "a20261122-10",
+      "slot": "center",
+      "headline": "Aggie freefall: A&M outscored 58-0 in fourth quarters over last four games; Hart's first start fizzles in Norman",
+      "url": "https://thebatt.com/sports/hart-ache-in-norman-aggies-fall-to-sooners-despite-plethora-of-offensive-changes/",
+      "source": "The Battalion"
+    },
+    {
+      "id": "a20261122-9",
+      "slot": "left",
+      "headline": "Horns open as double-digit favorites at Kyle Field: Friday, 6:30 PM on ABC",
+      "url": "https://sports.yahoo.com/articles/no-5-texas-opens-double-162200033.html",
+      "source": "Burnt Orange Nation via Yahoo Sports"
+    },
     {
       "id": "a20261122-8",
       "slot": "left",
