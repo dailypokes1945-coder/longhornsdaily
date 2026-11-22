@@ -1,26 +1,79 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-21T17:56:07Z",
-  "ticker": "TODAY: No. 5 Texas vs. Arkansas, 2:30 PM, ESPN ★ SUN: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN ★ SUN: Volleyball opens SEC Tournament, Savannah, 1:30 PM, SECN",
+  "updatedAt": "2026-11-22T00:56:54Z",
+  "ticker": "SUN: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN ★ SUN: No. 15 Volleyball vs. No. 11 Tennessee, SEC QF, SECN ★ SUN: No. 6 Men vs. Southern Indiana, 2 PM, SECN+",
   "tickerItems": [
-    {
-      "text": "TODAY: No. 5 Texas vs. Arkansas, 2:30 PM, ESPN",
-      "tickets": "https://www.stubhub.com/texas-longhorns-football-austin-tickets-11-21-2026/event/159477015/"
-    },
     {
       "text": "SUN: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN"
     },
     {
-      "text": "SUN: Volleyball opens SEC Tournament, Savannah, 1:30 PM, SECN"
+      "text": "SUN: No. 15 Volleyball vs. No. 11 Tennessee, SEC QF, SECN"
+    },
+    {
+      "text": "SUN: No. 6 Men vs. Southern Indiana, 2 PM, SECN+"
     }
   ],
   "expired": [
     {
       "url": "https://www.fox7austin.com/sports/no-8-texas-aims-firm-up-cfp-credentials-no-24-lsu",
       "reason": "LSU game over (W 22-21)"
+    },
+    {
+      "url": "https://www.si.com/college/arkansas/football/arkansas-vs-texas-updated-injury-report-includes-status-of-quincy-rhodes-colin-simmons",
+      "reason": "Arkansas game over (Texas W 45-3)"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/arkansas-football-vs-texas-prediction-110317613.html",
+      "reason": "Arkansas game over (Texas W 45-3)"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/matchups-watch-texas-vs-arkansas-174603624.html",
+      "reason": "Arkansas game over (Texas W 45-3)"
     }
   ],
   "stories": [
+    {
+      "id": "a20261121-10",
+      "slot": "left",
+      "headline": "[ROUT] Arch accounts for 3 TDs on Senior Day as Horns bury Hogs 45-3 for 5th straight",
+      "url": "https://sports.yahoo.com/articles/arch-manning-accounts-3-tds-000820235.html",
+      "source": "AP via Yahoo Sports"
+    },
+    {
+      "id": "a20261121-9",
+      "slot": "left",
+      "headline": "Arch 21-of-25 for 287, McDonald pick-six — but Kobe Black, Andre Cojoe banged up before A&M trip",
+      "url": "https://www.si.com/college/texas/football/4-immediate-takeaways-after-texas-longhorns-roll-past-arkansas-on-senior-day",
+      "source": "Texas Longhorns On SI"
+    },
+    {
+      "id": "a20261121-8",
+      "slot": "right",
+      "headline": "No. 15 volleyball draws No. 11 Tennessee in Sunday SEC quarterfinal — rematch of September five-setter",
+      "url": "https://www.si.com/college/tennessee/volleyball/tennessee-volleyball-beats-oklahoma-sets-up-sec-quarterfinal-rematch-with-texas-01m804wysvtz",
+      "source": "Tennessee Volunteers On SI"
+    },
+    {
+      "id": "a20261121-7",
+      "slot": "center",
+      "headline": "Rivalry week foe stumbles: Sooners rout A&M 28-7 in Norman before Friday's showdown with Texas",
+      "url": "https://www.koco.com/article/sports-sooners-take-down-texas-am-aggies-in-norman/74498716",
+      "source": "KOCO"
+    },
+    {
+      "id": "a20261121-6",
+      "slot": "right",
+      "headline": "Elliott's target in Savannah: steal a top-4 NCAA seed with the nation's toughest schedule",
+      "url": "https://sports.yahoo.com/articles/texas-volleyball-must-starting-sunday-150000507.html",
+      "source": "Austin American-Statesman via Yahoo Sports"
+    },
+    {
+      "id": "a20261121-5",
+      "slot": "center",
+      "headline": "Hogs' hometown paper hands Arkansas an F: 3-of-14 on third down in Austin",
+      "url": "https://sports.yahoo.com/articles/arkansas-football-report-card-vs-235243104.html",
+      "source": "Southwest Times Record via Yahoo Sports"
+    },
     {
       "id": "a20261121-4",
       "slot": "right",
@@ -64,13 +117,6 @@
       "source": "Hook 'Em Headlines"
     },
     {
-      "id": "a20261120-12",
-      "slot": "center",
-      "headline": "Hogs lose starting RT Bryant Williams; Texas lists Smothers, Goosby, Townsend, Kanu out",
-      "url": "https://www.si.com/college/arkansas/football/arkansas-vs-texas-updated-injury-report-includes-status-of-quincy-rhodes-colin-simmons",
-      "source": "Arkansas Razorbacks On SI"
-    },
-    {
       "id": "a20261120-11",
       "slot": "left",
       "headline": "Arch named Golden Arm Award finalist on eve of Senior Day",
@@ -90,13 +136,6 @@
       "headline": "End of an era on 26th Street: Madam Mam's closing West Campus spot Dec. 18 after 25 years near UT",
       "url": "https://communityimpact.com/central-austin/dining/madam-mam-s-closing-west-campus-location/",
       "source": "Community Impact"
-    },
-    {
-      "id": "a20261120-8",
-      "slot": "left",
-      "headline": "Hogs' hometown paper picks Texas 38-17; Horns 20.5-point favorites",
-      "url": "https://sports.yahoo.com/articles/arkansas-football-vs-texas-prediction-110317613.html",
-      "source": "Southwest Times Record via Yahoo Sports"
     },
     {
       "id": "a20261120-7",
@@ -127,13 +166,6 @@
       "headline": "No. 6 women (5-0) take on No. 19 Ohio State Sunday at noon in Fort Worth",
       "url": "https://hookemheadlines.com/texas-hc-vic-schaefer-loves-balance-he-is-seeing-ahead-of-longhorns-first-ranked-game",
       "source": "Hook 'Em Headlines"
-    },
-    {
-      "id": "a20261120-3",
-      "slot": "left",
-      "headline": "Five matchups vs. Hogs: Arkansas pass D ranks 72nd; Horns' line gave up 29 pressures at LSU",
-      "url": "https://sports.yahoo.com/articles/matchups-watch-texas-vs-arkansas-174603624.html",
-      "source": "Longhorns Wire via Yahoo Sports"
     },
     {
       "id": "a20261120-2",
