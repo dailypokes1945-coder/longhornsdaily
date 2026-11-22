@@ -1,16 +1,16 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-22T00:56:54Z",
-  "ticker": "SUN: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN ★ SUN: No. 15 Volleyball vs. No. 11 Tennessee, SEC QF, SECN ★ SUN: No. 6 Men vs. Southern Indiana, 2 PM, SECN+",
+  "updatedAt": "2026-11-22T11:25:46Z",
+  "ticker": "TODAY: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN ★ TODAY: No. 15 Volleyball vs. No. 11 Tennessee, SEC QF, 1:30 PM, SECN ★ TODAY: No. 6 Men vs. Southern Indiana, 2 PM, SECN+",
   "tickerItems": [
     {
-      "text": "SUN: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN"
+      "text": "TODAY: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN"
     },
     {
-      "text": "SUN: No. 15 Volleyball vs. No. 11 Tennessee, SEC QF, SECN"
+      "text": "TODAY: No. 15 Volleyball vs. No. 11 Tennessee, SEC QF, 1:30 PM, SECN"
     },
     {
-      "text": "SUN: No. 6 Men vs. Southern Indiana, 2 PM, SECN+"
+      "text": "TODAY: No. 6 Men vs. Southern Indiana, 2 PM, SECN+"
     }
   ],
   "expired": [
@@ -32,6 +32,64 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261122-8",
+      "slot": "left",
+      "headline": "Safety Kobe Black, who sealed last year's A&M win with a pick, hurts knee vs. Hogs — unlikely for Kyle Field",
+      "url": "https://www.si.com/college/texas/football/texas-kobe-black-exits-with-apparent-significant-injury-vs-arkansas",
+      "source": "Texas Longhorns On SI"
+    },
+    {
+      "id": "a20261122-7",
+      "slot": "center",
+      "headline": "A&M skid hits five: Aggies out of bowl picture, Elko undecided on QB for Texas after 28-7 loss in Norman",
+      "url": "https://sports.yahoo.com/articles/texas-ms-offensive-struggles-continue-013035904.html",
+      "source": "Houston Chronicle via Yahoo Sports"
+    },
+    {
+      "id": "a20261122-6",
+      "slot": "right",
+      "headline": "Unbeaten No. 6 Horns host Southern Indiana today at 2 — Georgetown on Thanksgiving in San Diego next",
+      "url": "https://www.fieldlevelmedia.com/ncaab/no-6-texas-looks-to-keep-focus-against-southern-indiana/",
+      "source": "Field Level Media"
+    },
+    {
+      "id": "a20261122-5",
+      "slot": "left",
+      "headline": "Injury watch: RT Andre Cojoe's status unknown after early exit; Cam Coleman still working back from shoulder",
+      "url": "https://sports.yahoo.com/articles/updating-texas-injury-situation-arkansas-010112251.html",
+      "source": "Burnt Orange Nation via Yahoo Sports"
+    },
+    {
+      "id": "a20261122-4",
+      "slot": "left",
+      "headline": "No. 5 in the CFP and 6-1 at DKR: will the Horns play in Austin again this year?",
+      "url": "https://sports.yahoo.com/articles/texas-pounds-arkansas-home-finale-005027569.html",
+      "source": "Austin American-Statesman via Yahoo Sports"
+    },
+    {
+      "id": "a20261122-3",
+      "slot": "center",
+      "headline": "New eats: sushi bar Wasa on East Fifth and Korean fried chicken at Donkey Mo's lead Austin's latest openings",
+      "url": "https://communityimpact.com/east-austin/dining/5-new-central-texas-restaurants-to-try-this-weekend/",
+      "source": "Community Impact",
+      "image": "https://communityimpact.com/og/cmwnvs8mn09wm01qb8bnkiokj/?v=1795120452",
+      "imageCredit": "Photo: Community Impact"
+    },
+    {
+      "id": "a20261122-2",
+      "slot": "right",
+      "headline": "Lillie Nesty's 50.35 in the 100 back breaks a Texas school record at the Texas Invitational",
+      "url": "https://texaslonghorns.com/news/2026/11/19/womens-swimming-and-diving-no-2-womens-swimming-breaks-second-school-record-at-texas-swimming-invitational",
+      "source": "Texas Athletics"
+    },
+    {
+      "id": "a20261122-1",
+      "slot": "right",
+      "headline": "Henley Anderson is Texas' first SEC Freshman of the Year as Elliott notches career win No. 700",
+      "url": "https://sports.yahoo.com/articles/longhorns-women-sports-notes-texas-184500883.html",
+      "source": "Burnt Orange Nation via Yahoo Sports"
+    },
     {
       "id": "a20261121-10",
       "slot": "left",
@@ -101,85 +159,6 @@
       "headline": "New on campus: Justine's crew opens Café Fleurs de Nuit inside the Blanton",
       "url": "https://austin.culturemap.com/news/restaurants-bars/food-news-openings-shola-escuela/",
       "source": "CultureMap Austin"
-    },
-    {
-      "id": "a20261120-14",
-      "slot": "right",
-      "headline": "Southern Indiana (2-4) makes first-ever trip to face unbeaten No. 6 Horns Sunday at Moody, 2 PM, SEC Network+",
-      "url": "https://usiscreamingeagles.com/news/2026/11/20/mens-basketball-usi-enters-sec-territory-for-showdown-with-no-6-texas.aspx",
-      "source": "USI Athletics"
-    },
-    {
-      "id": "a20261120-13",
-      "slot": "right",
-      "headline": "Brick city: Horns have missed 47 free throws in five games, shooting under 70% at the line",
-      "url": "https://hookemheadlines.com/after-offseason-hype-sean-millers-squad-is-struggling-with-one-of-easiest-parts-of-game-texas-longhorns",
-      "source": "Hook 'Em Headlines"
-    },
-    {
-      "id": "a20261120-11",
-      "slot": "left",
-      "headline": "Arch named Golden Arm Award finalist on eve of Senior Day",
-      "url": "https://sports.yahoo.com/articles/texas-makes-announcement-qb-arch-194136449.html",
-      "source": "Heavy via Yahoo Sports"
-    },
-    {
-      "id": "a20261120-10",
-      "slot": "right",
-      "headline": "No. 4 seed volleyball gets SEC Tournament bye, opens Sunday 1:30 PM on SECN in Savannah",
-      "url": "https://sports.yahoo.com/articles/where-watch-sec-volleyball-tournament-090001099.html",
-      "source": "The Sporting News via Yahoo Sports"
-    },
-    {
-      "id": "a20261120-9",
-      "slot": "center",
-      "headline": "End of an era on 26th Street: Madam Mam's closing West Campus spot Dec. 18 after 25 years near UT",
-      "url": "https://communityimpact.com/central-austin/dining/madam-mam-s-closing-west-campus-location/",
-      "source": "Community Impact"
-    },
-    {
-      "id": "a20261120-7",
-      "slot": "right",
-      "headline": "Vokietaitis 26 & 11, Punch 22 as unbeaten No. 6 Horns pull away from Southern Utah 92-68",
-      "url": "https://www.lanacion.com.ar/usa/vokietaitis-and-punch-lead-no-6-texas-to-a-92-68-win-over-southern-utah-nid20112026/",
-      "source": "AP"
-    },
-    {
-      "id": "a20261120-6",
-      "slot": "left",
-      "headline": "Sark on tampering talk: 'Given it zero focus' — and a warning for anyone thinking of leaving",
-      "url": "https://sports.yahoo.com/articles/steve-sarkisian-drops-subtle-warning-181204612.html",
-      "source": "Texas Longhorns On SI via Yahoo Sports"
-    },
-    {
-      "id": "a20261120-5",
-      "slot": "center",
-      "headline": "UT going vertical: 1,000-bed dorm on Whitis in 2027, first law-student hall in 2028",
-      "url": "https://news.utexas.edu/2026/11/19/coming-soon-to-the-forty-acres-more-affordable-modern-housing-for-students/",
-      "source": "UT News",
-      "image": "https://news.utexas.edu/wp-content/uploads/Tower-and-West-Campus-from-the-stadium-2023-207884-scaled.jpg",
-      "imageCredit": "Photo: UT News"
-    },
-    {
-      "id": "a20261120-4",
-      "slot": "right",
-      "headline": "No. 6 women (5-0) take on No. 19 Ohio State Sunday at noon in Fort Worth",
-      "url": "https://hookemheadlines.com/texas-hc-vic-schaefer-loves-balance-he-is-seeing-ahead-of-longhorns-first-ranked-game",
-      "source": "Hook 'Em Headlines"
-    },
-    {
-      "id": "a20261120-2",
-      "slot": "center",
-      "headline": "Two ex-Razorbacks on the Texas D-line know exactly why Arkansas hates Texas",
-      "url": "https://sports.yahoo.com/articles/why-does-arkansas-hate-texas-125800126.html",
-      "source": "Austin American-Statesman via Yahoo Sports"
-    },
-    {
-      "id": "a20261120-1",
-      "slot": "right",
-      "headline": "Freshmen go 2-of-10 with 6 turnovers: three worries after the sloppy win",
-      "url": "https://www.si.com/college/texas/basketball/3-biggest-concerns-for-texas-longhorns-after-sloppy-win-vs-southern-utah",
-      "source": "Texas Longhorns On SI"
     }
   ]
 }
