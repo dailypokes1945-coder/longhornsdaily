@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-23T17:56:59Z",
+  "updatedAt": "2026-11-23T17:57:22Z",
   "ticker": "WED: No. 6 Women vs. SE Louisiana ★ THU: No. 6 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
     {
@@ -33,13 +33,6 @@
   ],
   "stories": [
     {
-      "id": "a20261123-10",
-      "slot": "right",
-      "headline": "Soccer's season ends in overtime: Houston stuns Horns 4-3 in NCAA first round despite Caroline Swann's two goals",
-      "url": "https://sports.yahoo.com/articles/texas-longhorns-fall-houston-cougars-181651193.html",
-      "source": "Austin American-Statesman"
-    },
-    {
       "id": "a20261123-9",
       "slot": "right",
       "headline": "Not pretty: Booker opens 0-for-5, Schaefer frets over rebounding as women 'stumble' past Ohio State",
@@ -51,16 +44,9 @@
       "slot": "center",
       "headline": "West Campus zoning fight back on: council member Zo Qadri eyes UNO update in early 2027",
       "url": "https://thedailytexan.com/2026/11/16/uts-city-council-member-says-he-will-advance-west-campus-zoning-updates-after-delays/",
-      "source": "The Daily Texan"
-    },
-    {
-      "id": "a20261123-7",
-      "slot": "center",
-      "headline": "UT to add 2,500 beds: seven-story Whitis Avenue dorm for 1,000 students opens fall 2027",
-      "url": "https://news.utexas.edu/2026/11/19/coming-soon-to-the-forty-acres-more-affordable-modern-housing-for-students/",
-      "source": "UT News",
-      "image": "https://news.utexas.edu/wp-content/uploads/Tower-and-West-Campus-from-the-stadium-2023-207884-scaled.jpg",
-      "imageCredit": "Photo: UT News"
+      "source": "The Daily Texan",
+      "image": "https://thedailytexan.com/wp-content/uploads/2026/11/11-16-26_unowtf_IzabellaHernandez4.jpg",
+      "imageCredit": "Photo: The Daily Texan"
     },
     {
       "id": "a20261123-6",
