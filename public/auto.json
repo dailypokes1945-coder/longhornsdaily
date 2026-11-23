@@ -1,16 +1,16 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-22T17:57:54Z",
-  "ticker": "TODAY: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN ★ TODAY: No. 15 Volleyball vs. No. 11 Tennessee, SEC QF, 1:30 PM, SECN ★ TODAY: No. 6 Men vs. Southern Indiana, 2 PM, SECN+",
+  "updatedAt": "2026-11-23T00:57:33Z",
+  "ticker": "WED: No. 6 Women vs. SE Louisiana ★ THU: No. 6 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
     {
-      "text": "TODAY: No. 6 Women vs. No. 19 Ohio State, Fort Worth, Noon, ESPN"
+      "text": "WED: No. 6 Women vs. SE Louisiana"
     },
     {
-      "text": "TODAY: No. 15 Volleyball vs. No. 11 Tennessee, SEC QF, 1:30 PM, SECN"
+      "text": "THU: No. 6 Men vs. Georgetown, San Diego, 1:30 PM, FS1"
     },
     {
-      "text": "TODAY: No. 6 Men vs. Southern Indiana, 2 PM, SECN+"
+      "text": "FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC"
     }
   ],
   "expired": [
@@ -33,11 +33,46 @@
   ],
   "stories": [
     {
-      "id": "a20261122-11",
+      "id": "a20261122-17",
       "slot": "right",
-      "headline": "Horns try to beat Tennessee twice: Stafford (4.45 kills a set) leads No. 15 Texas into 1:30 SEC quarterfinal on SECN",
-      "url": "https://www.orangebloods.com/2026/11/21/texas-volleyball-versus-tennessee/",
+      "headline": "Unbeaten No. 6 Horns roll Southern Indiana 97-61 behind Vokietaitis' 20 and Freeman's 17 — but PG Isaiah Johnson exits with glute strain",
+      "url": "https://abcnews.com/Sports/wireStory/vokietaitis-freeman-lead-6-texas-past-southern-indiana-138364612",
+      "source": "AP"
+    },
+    {
+      "id": "a20261122-16",
+      "slot": "right",
+      "headline": "Cunningham's 24 and 13 power No. 6 women past No. 19 Ohio State 75-61 in Fort Worth",
+      "url": "https://sports.yahoo.com/articles/no-19-ohio-state-women-200545371.html",
+      "source": "SB Nation"
+    },
+    {
+      "id": "a20261122-15",
+      "slot": "right",
+      "headline": "Volleyball's SEC tourney run ends: No. 11 Tennessee rallies to win five-setter despite Stafford's 25 kills",
+      "url": "https://texaslonghorns.com/news/2026/11/22/no-15-volleyball-falls-to-no-11-tennessee-in-five-sets-in-sec-tournament-quarterfinals",
+      "source": "Texas Athletics"
+    },
+    {
+      "id": "a20261122-14",
+      "slot": "left",
+      "headline": "Sark's plan comes together: five straight wins since the Florida and OU heartbreaks — and one more puts Horns on the doorstep of Atlanta",
+      "url": "https://www.orangebloods.com/2026/11/22/texas-longhorn-football-sarkisian-plan-comes-together/",
       "source": "Orangebloods"
+    },
+    {
+      "id": "a20261122-13",
+      "slot": "center",
+      "headline": "Austin eats go national: Aba, J Carver's and Red Ash Italia crack OpenTable's Top 100",
+      "url": "https://austin.culturemap.com/news/restaurants-bars/opentable-100-2026-red-ash/",
+      "source": "CultureMap Austin"
+    },
+    {
+      "id": "a20261122-12",
+      "slot": "left",
+      "headline": "Horns jump three spots to No. 5 in AP poll as UCLA tumbles in triple OT",
+      "url": "https://www.si.com/college/texas/football/where-texas-ranks-in-latest-ap-top-25-poll-following-arkansas-blowout",
+      "source": "Texas Longhorns On SI"
     },
     {
       "id": "a20261122-10",
@@ -66,13 +101,6 @@
       "headline": "A&M skid hits five: Aggies out of bowl picture, Elko undecided on QB for Texas after 28-7 loss in Norman",
       "url": "https://sports.yahoo.com/articles/texas-ms-offensive-struggles-continue-013035904.html",
       "source": "Houston Chronicle via Yahoo Sports"
-    },
-    {
-      "id": "a20261122-6",
-      "slot": "right",
-      "headline": "Unbeaten No. 6 Horns host Southern Indiana today at 2 — Georgetown on Thanksgiving in San Diego next",
-      "url": "https://www.fieldlevelmedia.com/ncaab/no-6-texas-looks-to-keep-focus-against-southern-indiana/",
-      "source": "Field Level Media"
     },
     {
       "id": "a20261122-5",
@@ -126,25 +154,11 @@
       "source": "Texas Longhorns On SI"
     },
     {
-      "id": "a20261121-8",
-      "slot": "right",
-      "headline": "No. 15 volleyball draws No. 11 Tennessee in Sunday SEC quarterfinal — rematch of September five-setter",
-      "url": "https://www.si.com/college/tennessee/volleyball/tennessee-volleyball-beats-oklahoma-sets-up-sec-quarterfinal-rematch-with-texas-01m804wysvtz",
-      "source": "Tennessee Volunteers On SI"
-    },
-    {
       "id": "a20261121-7",
       "slot": "center",
       "headline": "Rivalry week foe stumbles: Sooners rout A&M 28-7 in Norman before Friday's showdown with Texas",
       "url": "https://www.koco.com/article/sports-sooners-take-down-texas-am-aggies-in-norman/74498716",
       "source": "KOCO"
-    },
-    {
-      "id": "a20261121-6",
-      "slot": "right",
-      "headline": "Elliott's target in Savannah: steal a top-4 NCAA seed with the nation's toughest schedule",
-      "url": "https://sports.yahoo.com/articles/texas-volleyball-must-starting-sunday-150000507.html",
-      "source": "Austin American-Statesman via Yahoo Sports"
     },
     {
       "id": "a20261121-5",
