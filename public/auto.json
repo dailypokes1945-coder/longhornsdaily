@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-23T00:57:33Z",
+  "updatedAt": "2026-11-23T11:23:04Z",
   "ticker": "WED: No. 6 Women vs. SE Louisiana ★ THU: No. 6 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
     {
@@ -32,6 +32,41 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261123-5",
+      "slot": "right",
+      "headline": "PG Isaiah Johnson's glute strain clouds San Diego trip; John Clark's foot immobilized 4-6 weeks",
+      "url": "https://sports.yahoo.com/articles/isaiah-johnon-glute-strain-headlines-003933914.html",
+      "source": "Burnt Orange Nation via Yahoo Sports"
+    },
+    {
+      "id": "a20261123-4",
+      "slot": "center",
+      "headline": "ESPN FPI: Horns 83.9% favorites at Kyle Field",
+      "url": "https://sports.yahoo.com/articles/espn-fpi-prediction-texas-m-104714580.html",
+      "source": "Aggies Wire via Yahoo Sports"
+    },
+    {
+      "id": "a20261123-3",
+      "slot": "center",
+      "headline": "Aggie beat writer: Elko 'ran out of options' as A&M managed 189 yards in Norman",
+      "url": "https://www.kbtx.com/2026/11/22/brown-texas-ams-mike-elko-ran-out-options-loss-no-22-oklahoma/",
+      "source": "KBTX"
+    },
+    {
+      "id": "a20261123-2",
+      "slot": "left",
+      "headline": "Report card: Horns get an A for the Arkansas rout while Ohio State and Indiana take D's",
+      "url": "https://www.cbssports.com/college-football/news/college-football-grades-results-week-12-2026-texas-indiana/",
+      "source": "CBS Sports"
+    },
+    {
+      "id": "a20261123-1",
+      "slot": "left",
+      "headline": "Snap judgments: Arch 21-of-25, McDonald's pick-six, and now 4-7 A&M on Black Friday",
+      "url": "https://247sports.com/college/texas/article/snap-judgments-from-no-5-texas-45-3-victory-over-arkansas-as-the-longhorns-turn-their-focus-to-texas-am-293103679/",
+      "source": "Horns247"
+    },
     {
       "id": "a20261122-17",
       "slot": "right",
@@ -138,62 +173,6 @@
       "headline": "Henley Anderson is Texas' first SEC Freshman of the Year as Elliott notches career win No. 700",
       "url": "https://sports.yahoo.com/articles/longhorns-women-sports-notes-texas-184500883.html",
       "source": "Burnt Orange Nation via Yahoo Sports"
-    },
-    {
-      "id": "a20261121-10",
-      "slot": "left",
-      "headline": "[ROUT] Arch accounts for 3 TDs on Senior Day as Horns bury Hogs 45-3 for 5th straight",
-      "url": "https://sports.yahoo.com/articles/arch-manning-accounts-3-tds-000820235.html",
-      "source": "AP via Yahoo Sports"
-    },
-    {
-      "id": "a20261121-9",
-      "slot": "left",
-      "headline": "Arch 21-of-25 for 287, McDonald pick-six — but Kobe Black, Andre Cojoe banged up before A&M trip",
-      "url": "https://www.si.com/college/texas/football/4-immediate-takeaways-after-texas-longhorns-roll-past-arkansas-on-senior-day",
-      "source": "Texas Longhorns On SI"
-    },
-    {
-      "id": "a20261121-7",
-      "slot": "center",
-      "headline": "Rivalry week foe stumbles: Sooners rout A&M 28-7 in Norman before Friday's showdown with Texas",
-      "url": "https://www.koco.com/article/sports-sooners-take-down-texas-am-aggies-in-norman/74498716",
-      "source": "KOCO"
-    },
-    {
-      "id": "a20261121-5",
-      "slot": "center",
-      "headline": "Hogs' hometown paper hands Arkansas an F: 3-of-14 on third down in Austin",
-      "url": "https://sports.yahoo.com/articles/arkansas-football-report-card-vs-235243104.html",
-      "source": "Southwest Times Record via Yahoo Sports"
-    },
-    {
-      "id": "a20261121-4",
-      "slot": "right",
-      "headline": "Season over: No. 5 seed soccer falls 4-3 to Houston in OT after Swann's late equalizer",
-      "url": "https://www.secsports.com/news/2026/11/no-5-texas-falls-to-houston-in-overtime-in-ncaa-championship",
-      "source": "SECSports.com"
-    },
-    {
-      "id": "a20261121-3",
-      "slot": "left",
-      "headline": "It's Senior Day for Arch — but he still has a year left. So what's next?",
-      "url": "https://sports.yahoo.com/articles/whats-next-arch-mannings-future-110408378.html",
-      "source": "USA Today"
-    },
-    {
-      "id": "a20261121-2",
-      "slot": "center",
-      "headline": "Flip watch: A&M's 4-star safety JayQuan Snell in Austin for Arkansas game",
-      "url": "https://hookemheadlines.com/texas-looks-to-poach-4-star-jayquan-snell-from-aggies-as-another-rival-comes-to-town",
-      "source": "Hook 'Em Headlines"
-    },
-    {
-      "id": "a20261121-1",
-      "slot": "center",
-      "headline": "New on campus: Justine's crew opens Café Fleurs de Nuit inside the Blanton",
-      "url": "https://austin.culturemap.com/news/restaurants-bars/food-news-openings-shola-escuela/",
-      "source": "CultureMap Austin"
     }
   ]
 }
