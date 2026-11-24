@@ -114,3 +114,8 @@ Two scheduled Claude tasks keep the front page current (their prompts are in HAN
 - **Midday + evening** (about noon and 7 PM Central): a lighter refresh of `public/auto.json` only.
 
 They never touch the feature spot or top links, which stay in the owner's editor. The morning update does set a daily banner (an automatic story with slot "banner" and a photo): while it shows, the owner's own banner drops into the column named in its "dropTo". Hide it in the editor to bring your banner back, or click "edit" to make it your own banner. Midday and evening updates must leave that banner story exactly as it is: keep it first in auto.json "stories", keep its photo (the column photo rule and 12-per-column cap don't apply to it), never add a second banner and never repeat its url in a column. The editor has an "Added automatically this morning" section where the owner can hide any automatic story.
+
+**Freshness rule (owner, Nov 24, 2026), every run (morning, midday and evening):**
+- Remove any automatic column story whose ARTICLE was published 4 or more days ago (Central date), judged by the article's own publish date, not by the story id. Never re-add an older article under a new id to fill a column; if a column has no fresh story, dig deeper rather than recycle.
+- Once a game is final, nothing previewing it stays up (previews, predictions, odds, injury reports, how-to-watch, kickoff/tip times). Only recaps, reviews, grades and reactions written after the final score may stay, and they follow the 4-day rule. Expire these in "expired" as usual.
+
