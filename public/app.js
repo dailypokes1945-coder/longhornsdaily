@@ -269,12 +269,21 @@
         // three columns (never the banner, feature or top links) unless the owner chose to keep them.
         const keep = new Set(site.keepUrls || []);
         const expired = new Set((auto && Array.isArray(auto.expired) ? auto.expired : []).map(x => typeof x === "string" ? x : x && x.url).filter(Boolean));
+        // Morning-update banner: an auto story with slot "banner" takes over the banner, and the owner's
+        // banner drops into the column named in "dropTo" (same rule as functions/_render.js)
+        const urls0 = new Set((site.stories || []).map(s => s && s.url));
+        const banner = (auto && Array.isArray(auto.stories) ? auto.stories : [])
+          .find(a => a && a.slot === "banner" && a.url && a.headline && !hidden.has(a.id) && !urls0.has(a.url));
+        if (banner) {
+          const drop = ["left", "center", "right"].includes(banner.dropTo) ? banner.dropTo : "center";
+          site.stories = (site.stories || []).map((s, i) => s && s.slot === "banner" ? { ...s, slot: drop, order: -500 + i } : s);
+        }
         site.stories = (site.stories || []).filter(s => !(["left", "center", "right"].includes(s.slot) && expired.has(s.url) && !keep.has(s.url)));
         const have = new Set((site.stories || []).map(s => s.url));
         const extra = (auto && Array.isArray(auto.stories) ? auto.stories : [])
           .filter(a => ["left", "center", "right"].includes(a.slot) && !hidden.has(a.id) && !have.has(a.url))
           .map((a, i) => ({ ...a, hot: false, order: (a.pin ? -2000 : -1000) + i })); // "pin": true puts it at the top of its column
-        site.stories = (site.stories || []).concat(extra);
+        site.stories = (site.stories || []).concat(extra, banner ? [{ ...banner, hot: false, order: -1000 }] : []);
         // The morning update keeps the ticker current unless the owner chose their own
         if (auto && typeof auto.ticker === "string" && auto.ticker.trim() && !site.tickerManual) {
           site.ticker = auto.ticker.trim();

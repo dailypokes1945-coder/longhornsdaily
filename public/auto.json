@@ -1,5 +1,5 @@
 {
-  "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
+  "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
   "updatedAt": "2026-11-24T11:23:40Z",
   "ticker": "WED: No. 6 Women vs. SE Louisiana, 6 PM, SECN ★ THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
@@ -33,6 +33,16 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261124-b",
+      "slot": "banner",
+      "dropTo": "left",
+      "headline": "Season over for Kobe Black as Horns head into A&M week",
+      "url": "https://sports.yahoo.com/articles/texas-prepares-emotional-rivalry-showdown-004628919.html",
+      "source": "KXAN via Yahoo Sports",
+      "image": "https://s.yimg.com/lo/mysterio/api/e1e5b777684e25386d20e5d26aeeac94f43d8135f81fef24db988565a47ab135/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fkxan_articles_390%2F6cc6425119be818cb792cad14aed3b30.jpg_up.jpg",
+      "imageCredit": "Photo: AP via KXAN"
+    },
     {
       "id": "a20261124-10",
       "slot": "center",
@@ -97,13 +107,6 @@
       "headline": "[Flip]: Denton CB John Catlin IV, brother of ex-Horn Ja'Tavion Sanders, jumps from Arkansas to Texas — 24th 2027 commit",
       "url": "https://sports.yahoo.com/articles/texas-flips-three-star-cornerback-185141214.html",
       "source": "Longhorns Wire via Yahoo Sports"
-    },
-    {
-      "id": "a20261124-1",
-      "slot": "left",
-      "headline": "Season over for safety Kobe Black; Sark wants Horns to tap the rivalry emotion at Kyle Field 'but not become emotional'",
-      "url": "https://sports.yahoo.com/articles/texas-prepares-emotional-rivalry-showdown-004628919.html",
-      "source": "KXAN via Yahoo Sports"
     },
     {
       "id": "a20261123-13",

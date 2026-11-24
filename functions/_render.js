@@ -37,12 +37,22 @@ export function mergeSite(site, auto, overrides) {
   const hidden = new Set(site.hiddenAuto || []);
   const keep = new Set(site.keepUrls || []);
   const expired = new Set((Array.isArray(auto.expired) ? auto.expired : []).map(x => typeof x === "string" ? x : x && x.url).filter(Boolean));
+  // Morning-update banner: an auto story with slot "banner" takes over the banner, and the owner's
+  // banner drops into the column named in "dropTo" (below the new automatic stories there).
+  // Hiding it (or editing it into one of the owner's stories) in the editor turns this off.
+  const urls0 = new Set(stories.map(s => s && s.url));
+  const banner = (Array.isArray(auto.stories) ? auto.stories : [])
+    .find(a => a && a.slot === "banner" && a.url && a.headline && !hidden.has(a.id) && !urls0.has(a.url));
+  if (banner) {
+    const drop = COLS.includes(banner.dropTo) ? banner.dropTo : "center";
+    stories = stories.map((s, i) => s && s.slot === "banner" ? { ...s, slot: drop, order: -500 + i } : s);
+  }
   const own = stories.filter(s => !(COLS.includes(s.slot) && expired.has(s.url) && !keep.has(s.url)));
   const have = new Set(own.map(s => s.url));
   const extra = (Array.isArray(auto.stories) ? auto.stories : [])
     .filter(a => a && COLS.includes(a.slot) && !hidden.has(a.id) && !have.has(a.url))
     .map((a, i) => ({ ...a, hot: false, order: (a.pin ? -2000 : -1000) + i }));
-  site.stories = own.concat(extra);
+  site.stories = own.concat(extra, banner ? [{ ...banner, hot: false, order: -1000 }] : []);
   if (typeof auto.ticker === "string" && auto.ticker.trim() && !site.tickerManual) site.ticker = auto.ticker.trim();
   return site;
 }

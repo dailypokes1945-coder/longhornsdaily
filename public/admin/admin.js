@@ -121,7 +121,7 @@
     const box = $("auto-list"); if (!box) return; box.textContent = "";
     site.hiddenAuto = site.hiddenAuto || [];
     if (!autoStories.length) { const e = document.createElement("div"); e.className = "empty"; e.textContent = "Nothing added yet."; box.appendChild(e); return; }
-    const names = { left: "Gridiron", center: "The Wire", right: "Hoops · Mats · Diamond" };
+    const names = { banner: "Banner", left: "Gridiron", center: "The Wire", right: "Hoops · Mats · Diamond" };
     autoStories.forEach((a, idx) => {
       const mine = site.stories.find(s => s.url === a.url);
       const hidden = site.hiddenAuto.includes(a.id) && !mine;
@@ -261,6 +261,8 @@
     s.headline = $("e-headline").value.trim(); s.url = url; s.source = $("e-source").value.trim();
     Object.assign(s, readExtras("e"));
     if (editingAuto) {
+      // Editing the automatic banner makes it your banner; your old banner drops into its column, like on the front page
+      if (s.slot === "banner") { const drop = ["left", "center", "right"].includes(editingAuto.auto.dropTo) ? editingAuto.auto.dropTo : "center"; site.stories.forEach(x => { if (x.slot === "banner") { x.slot = drop; x.order = -500; } }); }
       site.stories.push(s);
       site.hiddenAuto = (site.hiddenAuto || []).filter(x => x !== editingAuto.auto.id).concat(editingAuto.auto.id);
       editingAuto = null;
