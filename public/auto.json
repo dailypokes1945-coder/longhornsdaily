@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-24T00:55:52Z",
+  "updatedAt": "2026-11-24T00:56:15Z",
   "ticker": "WED: No. 6 Women vs. SE Louisiana ★ THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
     {
@@ -33,25 +33,25 @@
   ],
   "stories": [
     {
-      "id": "a20261123-12",
+      "id": "a20261123-13",
       "slot": "left",
       "headline": "Sark tells Horns to tune out the Arch, draft and playoff noise — ESPN: a win at Kyle Field all but locks up a CFP bid",
       "url": "https://www.yardbarker.com/college_football/articles/texas_hc_steve_sarkisian_hopes_team_ignores_speculation_about_arch_mannings_future_heading_into_lone_star_showdown/s1_13132_44607573",
       "source": "Yardbarker"
     },
     {
-      "id": "a20261123-11",
+      "id": "a20261123-12",
       "slot": "center",
       "headline": "Commit: 2028 Sierra Canyon OT Lance Ciechanowski picks Horns over UCLA, Ole Miss",
       "url": "https://sports.yahoo.com/articles/texas-football-lands-2028-ot-002317471.html",
       "source": "ClutchPoints via Yahoo Sports"
     },
     {
-      "id": "a20261123-10",
+      "id": "a20261123-11",
       "slot": "right",
-      "headline": "Soccer's season ends in OT heartbreak: Houston stuns Horns 4-3 in NCAA first round despite Swann's two goals",
-      "url": "https://sports.yahoo.com/articles/texas-longhorns-fall-houston-cougars-181651193.html",
-      "source": "Austin American-Statesman via Yahoo Sports"
+      "headline": "New AP poll: unbeaten Horns (6-0) slip a spot to No. 7 as Houston leaps to No. 1",
+      "url": "https://www.kcci.com/article/houston-leaps-7-spots-to-no-1-in-ap-top-25-mens-poll-duke-and-michigan-state-drop-out-of-top-10/74507128",
+      "source": "AP via KCCI"
     },
     {
       "id": "a20261123-9",
