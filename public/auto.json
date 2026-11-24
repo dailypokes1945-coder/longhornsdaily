@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-24T11:23:40Z",
+  "updatedAt": "2026-11-24T17:56:21Z",
   "ticker": "WED: No. 6 Women vs. SE Louisiana, 6 PM, SECN ★ THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
     {
@@ -42,6 +42,34 @@
       "source": "KXAN via Yahoo Sports",
       "image": "https://s.yimg.com/lo/mysterio/api/e1e5b777684e25386d20e5d26aeeac94f43d8135f81fef24db988565a47ab135/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fkxan_articles_390%2F6cc6425119be818cb792cad14aed3b30.jpg_up.jpg",
       "imageCredit": "Photo: AP via KXAN"
+    },
+    {
+      "id": "a20261124-14",
+      "slot": "right",
+      "headline": "Volleyball's SEC run ends: No. 11 Tennessee storms back from 0-2 down, tops Horns 15-12 in the fifth",
+      "url": "https://utsports.com/news/2026/11/22/volleyball-11-lady-vols-rally-past-15-texas-in-five-set-thriller",
+      "source": "Tennessee Athletics"
+    },
+    {
+      "id": "a20261124-13",
+      "slot": "center",
+      "headline": "Aggies' game notes: Texas leads the series 78-37-5 — A&M hasn't beaten the Horns in College Station since 2007",
+      "url": "https://12thman.com/news/2026/11/23/texas-game-week-press-conference-and-game-notes",
+      "source": "Texas A&M Athletics"
+    },
+    {
+      "id": "a20261124-12",
+      "slot": "left",
+      "headline": "The villain returns: two years after a 17-7 win before 109,028 at Kyle Field, Horns head back with plenty at stake",
+      "url": "https://thedailytexan.com/2026/11/23/the-villain-returns-texas-heads-back-to-kyle-field-with-plenty-at-stake-again/",
+      "source": "The Daily Texan"
+    },
+    {
+      "id": "a20261124-11",
+      "slot": "left",
+      "headline": "Sark: DT Hero Kanu 'potentially' back for the playoffs; Horns played 74 guys vs. Arkansas, most all season",
+      "url": "https://www.orangebloods.com/2026/11/23/sarkisian-aggies-press-conference/",
+      "source": "Orangebloods"
     },
     {
       "id": "a20261124-10",
