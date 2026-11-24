@@ -157,6 +157,7 @@ body.gameday .item a.hot, body.gameday .otd h4 { color:#fff; }
 .tag, .bar, .col h3 { font-weight:700; color:#333; }
 body.gameday .src, body.gameday .day-sec .src, body.gameday .photo figcaption, body.gameday .tag, body.gameday .bar, body.gameday .col h3 { color:var(--ink); }
 
-/* Bigger banner (owner request, Nov 24, 2026) */
-.banner .item a { font-size:clamp(34px,7vw,66px); line-height:1.05; text-decoration-thickness:4px; }
-.banner .photo { max-width:760px; }
+/* Bigger ticker, the line of upcoming games and events (owner request, Nov 24, 2026) */
+.ticker { font-size:clamp(16px,2.2vw,21px); line-height:1.45; padding:10px 6px; border-top-width:4px; border-bottom-width:4px; }
+/* Courier New has no weight above bold, so a thin outline in the text's own color makes the ticker heavier */
+.ticker { font-weight:700; -webkit-text-stroke:0.6px currentColor; paint-order:stroke fill; }
