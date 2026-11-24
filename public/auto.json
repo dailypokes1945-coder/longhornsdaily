@@ -1,16 +1,17 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go only in columns (left, center, right); the owner controls banner, feature and top links. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-24T00:56:15Z",
-  "ticker": "WED: No. 6 Women vs. SE Louisiana ★ THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
+  "updatedAt": "2026-11-24T11:23:40Z",
+  "ticker": "WED: No. 6 Women vs. SE Louisiana, 6 PM, SECN ★ THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
     {
-      "text": "WED: No. 6 Women vs. SE Louisiana"
+      "text": "WED: No. 6 Women vs. SE Louisiana, 6 PM, SECN"
     },
     {
       "text": "THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1"
     },
     {
-      "text": "FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC"
+      "text": "FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
+      "tickets": "https://www.stubhub.com/texas-a-m-aggies-football-college-station-tickets-11-27-2026/event/159477072/"
     }
   ],
   "expired": [
@@ -32,6 +33,78 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261124-10",
+      "slot": "center",
+      "headline": "End of an era on 26th Street: Madam Mam's closes its West Campus Thai spot Dec. 18 after 25 years near UT",
+      "url": "https://communityimpact.com/central-austin/dining/madam-mam-s-closing-west-campus-location/",
+      "source": "Community Impact"
+    },
+    {
+      "id": "a20261124-9",
+      "slot": "right",
+      "headline": "Georgetown arrives 6-0: Ed Cooley's Hoyas get their shot at No. 7 Texas Thursday in San Diego",
+      "url": "https://sports.yahoo.com/articles/big-east-watch-week-four-100000291.html",
+      "source": "SB Nation via Yahoo Sports"
+    },
+    {
+      "id": "a20261124-8",
+      "slot": "center",
+      "headline": "Campus housing shakeup: Creekside off the renewal list, Dobie Twenty21 closes for 2027-28 as 1,000-bed Whitis hall rises",
+      "url": "https://thedailytexan.com/2026/11/19/creekside-not-available-for-renewal-dobie-twenty21-becomes-dell-house-other-university-housing-changes/",
+      "source": "The Daily Texan",
+      "image": "https://thedailytexan.com/wp-content/uploads/2026/11/11-19-26_HousingChanges_RiaNam_04.jpg",
+      "imageCredit": "Photo: The Daily Texan"
+    },
+    {
+      "id": "a20261124-7",
+      "slot": "left",
+      "headline": "Horns on the Aggies: 'good players everywhere' — LB Lance Jackson says underdogs play with more fire",
+      "url": "https://sports.yahoo.com/articles/texas-longhorns-had-texas-m-001131320.html",
+      "source": "Houston Chronicle via Yahoo Sports"
+    },
+    {
+      "id": "a20261124-6",
+      "slot": "right",
+      "headline": "Women hold at No. 6 in AP poll after Ohio State win; South Carolina unanimous No. 1",
+      "url": "https://www.clickondetroit.com/news/2026/11/23/south-carolina-remains-unanimous-no-1-in-womens-ap-top-25-ahead-of-uconn-clash-baylor-moves-into-the-poll/",
+      "source": "AP via WDIV"
+    },
+    {
+      "id": "a20261124-5",
+      "slot": "center",
+      "headline": "Elko still won't name an A&M QB — Sark: Horns expect to see both Reed and Hart",
+      "url": "https://sports.yahoo.com/articles/texas-m-undecided-quarterback-against-002629155.html",
+      "source": "Houston Chronicle via Yahoo Sports"
+    },
+    {
+      "id": "a20261124-4",
+      "slot": "left",
+      "headline": "Golden: A&M is 'a dead team walking' — but that guarantees nothing for the Horns",
+      "url": "https://sports.yahoo.com/articles/texas-m-dead-team-walking-120000729.html",
+      "source": "Austin American-Statesman via Yahoo Sports"
+    },
+    {
+      "id": "a20261124-3",
+      "slot": "right",
+      "headline": "PG Isaiah Johnson could miss the San Diego trip; Horns face Georgetown Thanksgiving, then Louisville Dec. 1",
+      "url": "https://sports.yahoo.com/articles/isaiah-johnson-injury-texas-basketball-235320274.html",
+      "source": "Austin American-Statesman via Yahoo Sports"
+    },
+    {
+      "id": "a20261124-2",
+      "slot": "center",
+      "headline": "[Flip]: Denton CB John Catlin IV, brother of ex-Horn Ja'Tavion Sanders, jumps from Arkansas to Texas — 24th 2027 commit",
+      "url": "https://sports.yahoo.com/articles/texas-flips-three-star-cornerback-185141214.html",
+      "source": "Longhorns Wire via Yahoo Sports"
+    },
+    {
+      "id": "a20261124-1",
+      "slot": "left",
+      "headline": "Season over for safety Kobe Black; Sark wants Horns to tap the rivalry emotion at Kyle Field 'but not become emotional'",
+      "url": "https://sports.yahoo.com/articles/texas-prepares-emotional-rivalry-showdown-004628919.html",
+      "source": "KXAN via Yahoo Sports"
+    },
     {
       "id": "a20261123-13",
       "slot": "left",
@@ -65,9 +138,7 @@
       "slot": "center",
       "headline": "West Campus zoning fight back on: council member Zo Qadri eyes UNO update in early 2027",
       "url": "https://thedailytexan.com/2026/11/16/uts-city-council-member-says-he-will-advance-west-campus-zoning-updates-after-delays/",
-      "source": "The Daily Texan",
-      "image": "https://thedailytexan.com/wp-content/uploads/2026/11/11-16-26_unowtf_IzabellaHernandez4.jpg",
-      "imageCredit": "Photo: The Daily Texan"
+      "source": "The Daily Texan"
     },
     {
       "id": "a20261123-6",
@@ -75,13 +146,6 @@
       "headline": "Sark after the rout: only 29 first-half plays, 10-1 in November since joining the SEC, short week to Kyle Field",
       "url": "https://sports.yahoo.com/articles/everything-steve-sarkisian-said-texas-051123372.html",
       "source": "Texas Longhorns On SI"
-    },
-    {
-      "id": "a20261123-5",
-      "slot": "right",
-      "headline": "PG Isaiah Johnson's glute strain clouds San Diego trip; John Clark's foot immobilized 4-6 weeks",
-      "url": "https://sports.yahoo.com/articles/isaiah-johnon-glute-strain-headlines-003933914.html",
-      "source": "Burnt Orange Nation via Yahoo Sports"
     },
     {
       "id": "a20261123-4",
@@ -110,111 +174,6 @@
       "headline": "Snap judgments: Arch 21-of-25, McDonald's pick-six, and now 4-7 A&M on Black Friday",
       "url": "https://247sports.com/college/texas/article/snap-judgments-from-no-5-texas-45-3-victory-over-arkansas-as-the-longhorns-turn-their-focus-to-texas-am-293103679/",
       "source": "Horns247"
-    },
-    {
-      "id": "a20261122-17",
-      "slot": "right",
-      "headline": "Unbeaten No. 6 Horns roll Southern Indiana 97-61 behind Vokietaitis' 20 and Freeman's 17 — but PG Isaiah Johnson exits with glute strain",
-      "url": "https://abcnews.com/Sports/wireStory/vokietaitis-freeman-lead-6-texas-past-southern-indiana-138364612",
-      "source": "AP"
-    },
-    {
-      "id": "a20261122-16",
-      "slot": "right",
-      "headline": "Cunningham's 24 and 13 power No. 6 women past No. 19 Ohio State 75-61 in Fort Worth",
-      "url": "https://sports.yahoo.com/articles/no-19-ohio-state-women-200545371.html",
-      "source": "SB Nation"
-    },
-    {
-      "id": "a20261122-15",
-      "slot": "right",
-      "headline": "Volleyball's SEC tourney run ends: No. 11 Tennessee rallies to win five-setter despite Stafford's 25 kills",
-      "url": "https://texaslonghorns.com/news/2026/11/22/no-15-volleyball-falls-to-no-11-tennessee-in-five-sets-in-sec-tournament-quarterfinals",
-      "source": "Texas Athletics"
-    },
-    {
-      "id": "a20261122-14",
-      "slot": "left",
-      "headline": "Sark's plan comes together: five straight wins since the Florida and OU heartbreaks — and one more puts Horns on the doorstep of Atlanta",
-      "url": "https://www.orangebloods.com/2026/11/22/texas-longhorn-football-sarkisian-plan-comes-together/",
-      "source": "Orangebloods"
-    },
-    {
-      "id": "a20261122-13",
-      "slot": "center",
-      "headline": "Austin eats go national: Aba, J Carver's and Red Ash Italia crack OpenTable's Top 100",
-      "url": "https://austin.culturemap.com/news/restaurants-bars/opentable-100-2026-red-ash/",
-      "source": "CultureMap Austin"
-    },
-    {
-      "id": "a20261122-12",
-      "slot": "left",
-      "headline": "Horns jump three spots to No. 5 in AP poll as UCLA tumbles in triple OT",
-      "url": "https://www.si.com/college/texas/football/where-texas-ranks-in-latest-ap-top-25-poll-following-arkansas-blowout",
-      "source": "Texas Longhorns On SI"
-    },
-    {
-      "id": "a20261122-10",
-      "slot": "center",
-      "headline": "Aggie freefall: A&M outscored 58-0 in fourth quarters over last four games; Hart's first start fizzles in Norman",
-      "url": "https://thebatt.com/sports/hart-ache-in-norman-aggies-fall-to-sooners-despite-plethora-of-offensive-changes/",
-      "source": "The Battalion"
-    },
-    {
-      "id": "a20261122-9",
-      "slot": "left",
-      "headline": "Horns open as double-digit favorites at Kyle Field: Friday, 6:30 PM on ABC",
-      "url": "https://sports.yahoo.com/articles/no-5-texas-opens-double-162200033.html",
-      "source": "Burnt Orange Nation via Yahoo Sports"
-    },
-    {
-      "id": "a20261122-8",
-      "slot": "left",
-      "headline": "Safety Kobe Black, who sealed last year's A&M win with a pick, hurts knee vs. Hogs — unlikely for Kyle Field",
-      "url": "https://www.si.com/college/texas/football/texas-kobe-black-exits-with-apparent-significant-injury-vs-arkansas",
-      "source": "Texas Longhorns On SI"
-    },
-    {
-      "id": "a20261122-7",
-      "slot": "center",
-      "headline": "A&M skid hits five: Aggies out of bowl picture, Elko undecided on QB for Texas after 28-7 loss in Norman",
-      "url": "https://sports.yahoo.com/articles/texas-ms-offensive-struggles-continue-013035904.html",
-      "source": "Houston Chronicle via Yahoo Sports"
-    },
-    {
-      "id": "a20261122-5",
-      "slot": "left",
-      "headline": "Injury watch: RT Andre Cojoe's status unknown after early exit; Cam Coleman still working back from shoulder",
-      "url": "https://sports.yahoo.com/articles/updating-texas-injury-situation-arkansas-010112251.html",
-      "source": "Burnt Orange Nation via Yahoo Sports"
-    },
-    {
-      "id": "a20261122-4",
-      "slot": "left",
-      "headline": "No. 5 in the CFP and 6-1 at DKR: will the Horns play in Austin again this year?",
-      "url": "https://sports.yahoo.com/articles/texas-pounds-arkansas-home-finale-005027569.html",
-      "source": "Austin American-Statesman via Yahoo Sports"
-    },
-    {
-      "id": "a20261122-3",
-      "slot": "center",
-      "headline": "New eats: sushi bar Wasa on East Fifth and Korean fried chicken at Donkey Mo's lead Austin's latest openings",
-      "url": "https://communityimpact.com/east-austin/dining/5-new-central-texas-restaurants-to-try-this-weekend/",
-      "source": "Community Impact"
-    },
-    {
-      "id": "a20261122-2",
-      "slot": "right",
-      "headline": "Lillie Nesty's 50.35 in the 100 back breaks a Texas school record at the Texas Invitational",
-      "url": "https://texaslonghorns.com/news/2026/11/19/womens-swimming-and-diving-no-2-womens-swimming-breaks-second-school-record-at-texas-swimming-invitational",
-      "source": "Texas Athletics"
-    },
-    {
-      "id": "a20261122-1",
-      "slot": "right",
-      "headline": "Henley Anderson is Texas' first SEC Freshman of the Year as Elliott notches career win No. 700",
-      "url": "https://sports.yahoo.com/articles/longhorns-women-sports-notes-texas-184500883.html",
-      "source": "Burnt Orange Nation via Yahoo Sports"
     }
   ]
 }

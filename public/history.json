@@ -195,5 +195,26 @@
       "url": "https://en.wikipedia.org/wiki/Texas%E2%80%93Texas_A%26M_football_rivalry",
       "source": "Wikipedia"
     }
+  ],
+  "12-01": [
+    {
+      "year": 2018,
+      "text": "No. 9 Texas fell 39-27 to No. 5 Oklahoma in the Big 12 Championship in Arlington despite a title-game-record 177 receiving yards from Collin Johnson.",
+      "url": "https://texaslonghorns.com/news/2018/12/1/no-9-9-football-big-12-championship-recap",
+      "source": "Texas Athletics"
+    },
+    {
+      "year": 2001,
+      "text": "Colorado edged No. 3 Texas 39-37 in the Big 12 Championship Game, ending the Longhorns' national title hopes.",
+      "url": "https://texaslonghorns.com/news/2001/12/1/120101aaa_74",
+      "source": "Texas Athletics"
+    },
+    {
+      "year": 1990,
+      "text": "Texas beat Texas A&M 28-27 in Austin before 82,518 fans to close the regular season.",
+      "url": "https://en.wikipedia.org/wiki/1990_Texas_Longhorns_football_team",
+      "source": "Wikipedia",
+      "top": true
+    }
   ]
 }
