@@ -28,6 +28,8 @@ function aOpen(url, cls) {
 // Same rules as the browser: expired column stories drop out (unless kept),
 // morning-update stories go above the owner's (newest first), and the automatic ticker wins
 // unless the owner chose their own.
+const EXPIRABLE = ["left", "center", "right", "top", "banner"];
+
 export function mergeSite(site, auto, overrides) {
   site = { ...(site || {}) };
   let stories = Array.isArray(site.stories) ? site.stories : [];
@@ -47,10 +49,11 @@ export function mergeSite(site, auto, overrides) {
     const drop = COLS.includes(banner.dropTo) ? banner.dropTo : "center";
     stories = stories.map((s, i) => s && s.slot === "banner" ? { ...s, slot: drop, order: -500 + i } : s);
   }
-  const own = stories.filter(s => !(COLS.includes(s.slot) && expired.has(s.url) && !keep.has(s.url)));
+  // Expired stories (games that are over) drop out of the columns, the top links and the banner, unless kept.
+  const own = stories.filter(s => !(EXPIRABLE.includes(s.slot) && expired.has(s.url) && !keep.has(s.url)));
   const have = new Set(own.map(s => s.url));
   const extra = (Array.isArray(auto.stories) ? auto.stories : [])
-    .filter(a => a && COLS.includes(a.slot) && !hidden.has(a.id) && !have.has(a.url))
+    .filter(a => a && (COLS.includes(a.slot) || a.slot === "top") && !hidden.has(a.id) && !have.has(a.url) && !expired.has(a.url))
     .map((a, i) => ({ ...a, hot: false, order: (a.pin ? -2000 : -1000) + i }));
   site.stories = own.concat(extra, banner ? [{ ...banner, hot: false, order: -1000 }] : []);
   if (typeof auto.ticker === "string" && auto.ticker.trim() && !site.tickerManual) site.ticker = auto.ticker.trim();

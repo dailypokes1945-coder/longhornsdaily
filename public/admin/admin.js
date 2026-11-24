@@ -121,7 +121,7 @@
     const box = $("auto-list"); if (!box) return; box.textContent = "";
     site.hiddenAuto = site.hiddenAuto || [];
     if (!autoStories.length) { const e = document.createElement("div"); e.className = "empty"; e.textContent = "Nothing added yet."; box.appendChild(e); return; }
-    const names = { banner: "Banner", left: "Gridiron", center: "The Wire", right: "Hoops · Mats · Diamond" };
+    const names = { banner: "Banner", top: "Top links", left: "Gridiron", center: "The Wire", right: "Hoops · Mats · Diamond" };
     autoStories.forEach((a, idx) => {
       const mine = site.stories.find(s => s.url === a.url);
       const hidden = site.hiddenAuto.includes(a.id) && !mine;
@@ -149,7 +149,7 @@
   function renderExpired() {
     const box = $("expired-list"); if (!box) return; box.textContent = "";
     site.keepUrls = site.keepUrls || [];
-    const cols = ["left", "center", "right"];
+    const cols = ["left", "center", "right", "top", "banner"];
     const mine = autoExpired.map(x => ({ x, s: (site.stories || []).find(s => s.url === x.url && cols.includes(s.slot)) })).filter(o => o.s);
     if (!mine.length) { const e = document.createElement("div"); e.className = "empty"; e.textContent = "Nothing expired."; box.appendChild(e); return; }
     mine.forEach(({ x, s }) => {

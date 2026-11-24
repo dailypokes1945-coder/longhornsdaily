@@ -266,7 +266,7 @@
         const auto = autoRes && autoRes.ok ? await autoRes.json() : null;
         const hidden = new Set(site.hiddenAuto || []);
         // Stories about games that are over: the morning update lists them, and they drop out of the
-        // three columns (never the banner, feature or top links) unless the owner chose to keep them.
+        // three columns, the top links and the banner (never the feature spot) unless the owner chose to keep them.
         const keep = new Set(site.keepUrls || []);
         const expired = new Set((auto && Array.isArray(auto.expired) ? auto.expired : []).map(x => typeof x === "string" ? x : x && x.url).filter(Boolean));
         // Morning-update banner: an auto story with slot "banner" takes over the banner, and the owner's
@@ -278,10 +278,10 @@
           const drop = ["left", "center", "right"].includes(banner.dropTo) ? banner.dropTo : "center";
           site.stories = (site.stories || []).map((s, i) => s && s.slot === "banner" ? { ...s, slot: drop, order: -500 + i } : s);
         }
-        site.stories = (site.stories || []).filter(s => !(["left", "center", "right"].includes(s.slot) && expired.has(s.url) && !keep.has(s.url)));
+        site.stories = (site.stories || []).filter(s => !(["left", "center", "right", "top", "banner"].includes(s.slot) && expired.has(s.url) && !keep.has(s.url)));
         const have = new Set((site.stories || []).map(s => s.url));
         const extra = (auto && Array.isArray(auto.stories) ? auto.stories : [])
-          .filter(a => ["left", "center", "right"].includes(a.slot) && !hidden.has(a.id) && !have.has(a.url))
+          .filter(a => ["left", "center", "right", "top"].includes(a.slot) && !hidden.has(a.id) && !have.has(a.url) && !expired.has(a.url))
           .map((a, i) => ({ ...a, hot: false, order: (a.pin ? -2000 : -1000) + i })); // "pin": true puts it at the top of its column
         site.stories = (site.stories || []).concat(extra, banner ? [{ ...banner, hot: false, order: -1000 }] : []);
         // The morning update keeps the ticker current unless the owner chose their own

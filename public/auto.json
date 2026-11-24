@@ -1,6 +1,6 @@
 {
-  "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-24T20:12:54Z",
+  "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of stories (owner's or auto) about games that are over or out of date; the front page hides those in left/center/right, the top links and the banner (never the feature spot) unless the owner listed the URL in keepUrls. Automatic stories may also use slot 'top' (at most 2, real breaking news only); they show first in the top links.",
+  "updatedAt": "2026-11-24T20:14:54Z",
   "ticker": "WED: No. 6 Women vs. SE Louisiana, 6 PM, SECN ★ THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
     {
@@ -30,6 +30,18 @@
     {
       "url": "https://sports.yahoo.com/articles/matchups-watch-texas-vs-arkansas-174603624.html",
       "reason": "Arkansas game over (Texas W 45-3)"
+    },
+    {
+      "url": "https://sports.yahoo.com/articles/kickoff-time-confirmed-arkansas-football-180342271.html",
+      "reason": "Arkansas game over (Texas W 45-3)"
+    },
+    {
+      "url": "https://clutchpoints.com/ncaa-football/texas-football-news-arch-manning-steve-sarkisian-special-moment-beating-lsu",
+      "reason": "LSU game Nov. 14, out of date"
+    },
+    {
+      "url": "https://lsusports.net/news/2026/11/14/late-touchdown-lifts-no-6-texas-over-lsu-22-21",
+      "reason": "LSU game Nov. 14, out of date"
     }
   ],
   "stories": [
