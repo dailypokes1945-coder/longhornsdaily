@@ -83,7 +83,7 @@ function shell({ title, description, canonical, body }) {
 <link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="stylesheet" href="/style.css?v=26">
+<link rel="stylesheet" href="/style.css?v=27">
 </head>
 <body>
 <div class="wrap archive">
