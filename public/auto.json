@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of column stories (owner's or auto) about games that are over; the front page hides those in left/center/right unless the owner listed the URL in keepUrls. Never banner/feature/top.",
-  "updatedAt": "2026-11-24T17:56:21Z",
+  "updatedAt": "2026-11-24T20:12:54Z",
   "ticker": "WED: No. 6 Women vs. SE Louisiana, 6 PM, SECN ★ THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
     {
@@ -72,27 +72,11 @@
       "source": "Orangebloods"
     },
     {
-      "id": "a20261124-10",
-      "slot": "center",
-      "headline": "End of an era on 26th Street: Madam Mam's closes its West Campus Thai spot Dec. 18 after 25 years near UT",
-      "url": "https://communityimpact.com/central-austin/dining/madam-mam-s-closing-west-campus-location/",
-      "source": "Community Impact"
-    },
-    {
       "id": "a20261124-9",
       "slot": "right",
       "headline": "Georgetown arrives 6-0: Ed Cooley's Hoyas get their shot at No. 7 Texas Thursday in San Diego",
       "url": "https://sports.yahoo.com/articles/big-east-watch-week-four-100000291.html",
       "source": "SB Nation via Yahoo Sports"
-    },
-    {
-      "id": "a20261124-8",
-      "slot": "center",
-      "headline": "Campus housing shakeup: Creekside off the renewal list, Dobie Twenty21 closes for 2027-28 as 1,000-bed Whitis hall rises",
-      "url": "https://thedailytexan.com/2026/11/19/creekside-not-available-for-renewal-dobie-twenty21-becomes-dell-house-other-university-housing-changes/",
-      "source": "The Daily Texan",
-      "image": "https://thedailytexan.com/wp-content/uploads/2026/11/11-19-26_HousingChanges_RiaNam_04.jpg",
-      "imageCredit": "Photo: The Daily Texan"
     },
     {
       "id": "a20261124-7",
@@ -162,13 +146,6 @@
       "slot": "right",
       "headline": "Not pretty: Booker opens 0-for-5, Schaefer frets over rebounding as women 'stumble' past Ohio State",
       "url": "https://thedailytexan.com/2026/11/22/texas-womens-basketball-stumbles-to-victory-over-ohio-state/",
-      "source": "The Daily Texan"
-    },
-    {
-      "id": "a20261123-8",
-      "slot": "center",
-      "headline": "West Campus zoning fight back on: council member Zo Qadri eyes UNO update in early 2027",
-      "url": "https://thedailytexan.com/2026/11/16/uts-city-council-member-says-he-will-advance-west-campus-zoning-updates-after-delays/",
       "source": "The Daily Texan"
     },
     {
