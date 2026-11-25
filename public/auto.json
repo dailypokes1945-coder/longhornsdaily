@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of stories (owner's or auto) about games that are over or out of date; the front page hides those in left/center/right, the top links and the banner (never the feature spot) unless the owner listed the URL in keepUrls. Automatic stories may also use slot 'top' (at most 2, real breaking news only); they show first in the top links.",
-  "updatedAt": "2026-11-24T20:19:27Z",
+  "updatedAt": "2026-11-25T00:56:26Z",
   "ticker": "WED: No. 6 Women vs. SE Louisiana, 6 PM, SECN ★ THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
     {
@@ -58,6 +58,59 @@
       "source": "KXAN via Yahoo Sports",
       "image": "https://s.yimg.com/lo/mysterio/api/e1e5b777684e25386d20e5d26aeeac94f43d8135f81fef24db988565a47ab135/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fkxan_articles_390%2F6cc6425119be818cb792cad14aed3b30.jpg_up.jpg",
       "imageCredit": "Photo: AP via KXAN"
+    },
+    {
+      "id": "a20261124-21",
+      "slot": "left",
+      "headline": "O-line shuffle: Jordan Coleman could make first career start at A&M",
+      "url": "https://sports.yahoo.com/articles/longhorns-watch-vs-texas-m-194542867.html",
+      "source": "Longhorns Wire via Yahoo Sports"
+    },
+    {
+      "id": "a20261124-20",
+      "slot": "right",
+      "headline": "Unbeaten vs. unbeaten: No. 7 Horns meet 6-0 Georgetown Thursday in San Diego",
+      "url": "https://texaslonghorns.com/news/2026/11/24/no-7-5-mens-basketball-preview-vs-georgetown-rady-childrens-invitational-semifinals",
+      "source": "Texas Athletics"
+    },
+    {
+      "id": "a20261124-19",
+      "slot": "center",
+      "headline": "Ex-Yuyo chef opens El Moderno Tex-Mex near campus on West 29th",
+      "url": "https://www.yahoo.com/lifestyle/articles/yuyo-chef-returns-campus-area-220653857.html",
+      "source": "Eater Austin via Yahoo",
+      "image": "https://s.yimg.com/lo/mysterio/api/71efb10a00821d27f475e661438fc0504acf013570b8ae429604dc01e19a9818/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Faustin_eater_458%2Fa54849b4d7524542b481ac699717d845.jpg",
+      "imageCredit": "Photo: Eater Austin"
+    },
+    {
+      "id": "a20261124-18",
+      "slot": "left",
+      "headline": "Burnt orange in Aggieland: a Horns fan's guide to College Station",
+      "url": "https://thedailytexan.com/2026/11/23/burnt-orange-in-aggieland-a-texas-fans-guide-to-college-station/",
+      "source": "The Daily Texan",
+      "image": "https://thedailytexan.com/wp-content/uploads/2026/11/11-19-26_KylefField_KennedyWeatherby.jpeg",
+      "imageCredit": "Photo: The Daily Texan"
+    },
+    {
+      "id": "a20261124-17",
+      "slot": "right",
+      "headline": "Cunningham, national player of the week, leads No. 6 women vs. SE Louisiana",
+      "url": "https://texaslonghorns.com/news/2026/11/24/womens-basketball-no-6-womens-basketball-preview-southeastern-louisiana",
+      "source": "Texas Athletics"
+    },
+    {
+      "id": "a20261124-16",
+      "slot": "center",
+      "headline": "Aggies crawl in: 2-6 since Kentucky loss, QB job in flux",
+      "url": "https://thedailytexan.com/2026/11/23/texas-am-crawls-into-lone-star-showdown/",
+      "source": "The Daily Texan"
+    },
+    {
+      "id": "a20261124-15",
+      "slot": "left",
+      "headline": "From 1894 to Bevo to now: how the Lone Star Showdown became tradition",
+      "url": "https://thedailytexan.com/2026/11/23/how-the-lone-star-showdown-became-a-texas-tradition/",
+      "source": "The Daily Texan"
     },
     {
       "id": "a20261124-14",
