@@ -1,7 +1,7 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of stories (owner's or auto) about games that are over or out of date; the front page hides those in left/center/right, the top links and the banner (never the feature spot) unless the owner listed the URL in keepUrls. Automatic stories may also use slot 'top' (at most 2, real breaking news only); they show first in the top links.",
-  "updatedAt": "2026-11-25T11:19:35Z",
-  "ticker": "TONIGHT: No. 6 Women vs. SE Louisiana, 6 PM, SECN ★ THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
+  "updatedAt": "2026-11-25T17:57:35Z",
+  "ticker": "TONIGHT: No. 6 Women vs. SE Louisiana, 6 PM, SECN ★ THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 3 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
     {
       "text": "TONIGHT: No. 6 Women vs. SE Louisiana, 6 PM, SECN"
@@ -10,7 +10,7 @@
       "text": "THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1"
     },
     {
-      "text": "FRI: No. 5 Football at Texas A&M, 6:30 PM, ABC",
+      "text": "FRI: No. 3 Football at Texas A&M, 6:30 PM, ABC",
       "tickets": "https://www.stubhub.com/texas-a-m-aggies-football-college-station-tickets-11-27-2026/event/159477072/"
     }
   ],
@@ -49,6 +49,55 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261125-7",
+      "slot": "left",
+      "headline": "Committee bumps Horns two spots to No. 3 in CFP rankings",
+      "url": "https://sports.yahoo.com/college-football/articles/college-football-playoff-committee-sends-015758577.html",
+      "source": "SEC Country"
+    },
+    {
+      "id": "a20261125-6",
+      "slot": "left",
+      "headline": "Injury report: Simmons questionable for A&M, Kobe Black done for year",
+      "url": "https://sports.yahoo.com/college-football/articles/longhorns-injury-report-colin-simmons-154018813.html",
+      "source": "Longhorns Wire"
+    },
+    {
+      "id": "a20261125-5",
+      "slot": "left",
+      "headline": "Path to Atlanta: beat A&M, then root for Auburn or Vandy",
+      "url": "https://lethbridgeherald.com/sports/national-sports/2026/11/25/texas-eyes-the-sec-title-game-but-a-desperate-texas-am-awaits-on-friday/",
+      "source": "AP"
+    },
+    {
+      "id": "a20261125-4",
+      "slot": "center",
+      "headline": "Sierra Canyon OL Lance Ciechanowski becomes third 2028 commit",
+      "url": "https://sports.yahoo.com/articles/texas-lands-another-recruiting-commitment-005206780.html",
+      "source": "Texas Longhorns On SI"
+    },
+    {
+      "id": "a20261125-3",
+      "slot": "center",
+      "headline": "From 11-0 to 4-7: A&M limps into rivalry week as a cautionary tale",
+      "url": "https://www.cbssports.com/college-football/news/texas-a-m-cautionary-tale-rivalry-week/",
+      "source": "CBS Sports"
+    },
+    {
+      "id": "a20261125-2",
+      "slot": "right",
+      "headline": "Hoyas bring a top-10 offense and an 11-for-11 big man to San Diego",
+      "url": "https://sports.yahoo.com/mens-college-basketball/articles/texas-vs-georgetown-preview-hoyas-123600876.html",
+      "source": "Burnt Orange Nation"
+    },
+    {
+      "id": "a20261125-1",
+      "slot": "right",
+      "headline": "No. 1 2027 hoops recruit Beckham Black visits the Forty Acres",
+      "url": "https://sports.yahoo.com/articles/top-basketball-prospect-2027-class-120451824.html",
+      "source": "Longhorns Wire"
+    },
     {
       "id": "a20261124-b",
       "slot": "banner",
