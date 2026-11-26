@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of stories (owner's or auto) about games that are over or out of date; the front page hides those in left/center/right, the top links and the banner (never the feature spot) unless the owner listed the URL in keepUrls. Automatic stories may also use slot 'top' (at most 2, real breaking news only); they show first in the top links.",
-  "updatedAt": "2026-11-25T17:57:35Z",
+  "updatedAt": "2026-11-26T00:55:46Z",
   "ticker": "TONIGHT: No. 6 Women vs. SE Louisiana, 6 PM, SECN ★ THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 3 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
     {
@@ -49,6 +49,29 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261125-10",
+      "slot": "right",
+      "headline": "Clark out a month, Lewis could return as Horns head to San Diego",
+      "url": "https://sports.yahoo.com/mens-college-basketball/articles/texas-basketball-going-tournament-win-201802031.html",
+      "source": "Austin American-Statesman"
+    },
+    {
+      "id": "a20261125-9",
+      "slot": "center",
+      "headline": "Madam Mam's to close West Campus spot Dec. 18; new café opens at the Blanton",
+      "url": "https://austin.culturemap.com/news/restaurants-bars/food-news-openings-shola-escuela/",
+      "source": "CultureMap Austin",
+      "image": "https://austin.culturemap.com/media-library/shola-feast.jpg?id=68725615&width=1200&height=600&coordinates=0%2C19%2C0%2C19",
+      "imageCredit": "Photo: CultureMap Austin"
+    },
+    {
+      "id": "a20261125-8",
+      "slot": "left",
+      "headline": "Sark to Horns: tune out the Arch transfer chatter, A&M is 'dangerous'",
+      "url": "https://www.yardbarker.com/college_football/articles/texas_hc_steve_sarkisian_hopes_team_ignores_speculation_about_arch_mannings_future_heading_into_lone_star_showdown/s1_13132_44607573",
+      "source": "Yardbarker"
+    },
     {
       "id": "a20261125-7",
       "slot": "left",
@@ -127,9 +150,7 @@
       "slot": "center",
       "headline": "Ex-Yuyo chef opens El Moderno Tex-Mex near campus on West 29th",
       "url": "https://www.yahoo.com/lifestyle/articles/yuyo-chef-returns-campus-area-220653857.html",
-      "source": "Eater Austin via Yahoo",
-      "image": "https://s.yimg.com/lo/mysterio/api/71efb10a00821d27f475e661438fc0504acf013570b8ae429604dc01e19a9818/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Faustin_eater_458%2Fa54849b4d7524542b481ac699717d845.jpg",
-      "imageCredit": "Photo: Eater Austin"
+      "source": "Eater Austin via Yahoo"
     },
     {
       "id": "a20261124-18",
