@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of stories (owner's or auto) about games that are over or out of date; the front page hides those in left/center/right, the top links and the banner (never the feature spot) unless the owner listed the URL in keepUrls. Automatic stories may also use slot 'top' (at most 2, real breaking news only); they show first in the top links.",
-  "updatedAt": "2026-11-26T11:22:47Z",
+  "updatedAt": "2026-11-26T17:56:49Z",
   "ticker": "TODAY: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: Hoops Day 2 in San Diego, FOX ★ FRI: No. 3 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
     {
@@ -49,6 +49,34 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261126-7",
+      "slot": "right",
+      "headline": "Starting guard Zya Vann sat out SE Louisiana rout, expected back Sunday at SEMO",
+      "url": "https://sports.yahoo.com/womens-college-basketball/articles/texas-womens-basketball-longhorns-roll-051638317.html",
+      "source": "Austin American-Statesman via Yahoo Sports"
+    },
+    {
+      "id": "a20261126-6",
+      "slot": "center",
+      "headline": "Regents OK land deals for 6,000-seat Bluebonnet Hill Arena next to Moody Center",
+      "url": "https://communityimpact.com/central-austin/development/new-ut-austin-arena-student-athlete-facilities-move-toward-development/",
+      "source": "Community Impact"
+    },
+    {
+      "id": "a20261126-5",
+      "slot": "center",
+      "headline": "Elko on A&M's collapse: 'Nothing's going to erase what has happened'",
+      "url": "https://sports.yahoo.com/college-football/articles/mike-elko-sends-strong-message-222500157.html",
+      "source": "SEC Country via Yahoo Sports"
+    },
+    {
+      "id": "a20261126-4",
+      "slot": "left",
+      "headline": "Aggies haven't hit 10 points in three straight games, now want to spoil Texas on Senior Night",
+      "url": "https://sports.yahoo.com/college-football/articles/no-3-texas-vs-texas-153600867.html",
+      "source": "Burnt Orange Nation via Yahoo Sports"
+    },
     {
       "id": "a20261126-b",
       "slot": "banner",
