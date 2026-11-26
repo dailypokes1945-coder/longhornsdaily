@@ -216,5 +216,21 @@
       "source": "Wikipedia",
       "top": true
     }
+  ],
+  "12-02": [
+    {
+      "year": 2023,
+      "text": "Quinn Ewers throws four touchdown passes as Texas routs Oklahoma State 49-21 to win the Big 12 title in its final season in the league.",
+      "url": "https://kutv.com/sports/college/ewers-throws-4-tds-as-no-7-texas-bids-farewell-to-big-12-with-49-21-title-win-over-oklahoma-state-12-02-2023",
+      "source": "AP via KUTV"
+    }
+  ],
+  "12-03": [
+    {
+      "year": 2005,
+      "text": "Texas crushes Colorado 70-3 at Reliant Stadium in Houston to claim the Big 12 championship.",
+      "url": "https://wikiwand.com/en/2005_Big_12_Championship_Game",
+      "source": "Wikiwand"
+    }
   ]
 }

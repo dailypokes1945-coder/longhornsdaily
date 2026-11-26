@@ -1,13 +1,13 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of stories (owner's or auto) about games that are over or out of date; the front page hides those in left/center/right, the top links and the banner (never the feature spot) unless the owner listed the URL in keepUrls. Automatic stories may also use slot 'top' (at most 2, real breaking news only); they show first in the top links.",
-  "updatedAt": "2026-11-26T00:56:45Z",
-  "ticker": "TONIGHT: No. 6 Women vs. SE Louisiana, 6 PM, SECN ★ THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: No. 3 Football at Texas A&M, 6:30 PM, ABC",
+  "updatedAt": "2026-11-26T11:22:47Z",
+  "ticker": "TODAY: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: Hoops Day 2 in San Diego, FOX ★ FRI: No. 3 Football at Texas A&M, 6:30 PM, ABC",
   "tickerItems": [
     {
-      "text": "TONIGHT: No. 6 Women vs. SE Louisiana, 6 PM, SECN"
+      "text": "TODAY: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1"
     },
     {
-      "text": "THU: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1"
+      "text": "FRI: Hoops Day 2 in San Diego, FOX"
     },
     {
       "text": "FRI: No. 3 Football at Texas A&M, 6:30 PM, ABC",
@@ -49,6 +49,37 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261126-b",
+      "slot": "banner",
+      "dropTo": "left",
+      "headline": "A&M's offense ranks 123rd as No. 3 Horns roll into Kyle Field",
+      "url": "https://sports.yahoo.com/college-football/articles/texas-m-vs-texas-3-002231673.html",
+      "source": "Aggies Wire via Yahoo Sports",
+      "image": "https://s.yimg.com/lo/mysterio/api/20d277cbda11be8f93cada8a19016ce7c96aa302a312cd5d0970957e8d3baabd/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Faggies_wire_usa_today_articles_632%2Fcbca118e3604a70d77dcc18a81d33924.jpg",
+      "imageCredit": "Photo: Aggies Wire"
+    },
+    {
+      "id": "a20261126-3",
+      "slot": "right",
+      "headline": "Clark scores 19, No. 6 women rout SE Louisiana 96-45 to go 7-0",
+      "url": "https://texaslonghorns.com/news/2026/11/25/womens-basketball-no-6-texas-womens-basketball-defeats-southeastern-louisiana-96-45",
+      "source": "Texas Athletics"
+    },
+    {
+      "id": "a20261126-2",
+      "slot": "center",
+      "headline": "Home crowd, rivalry chaos: three ways the Aggies could pull the upset",
+      "url": "https://sports.yahoo.com/college-football/articles/3-reasons-texas-m-could-113000373.html",
+      "source": "SEC Country via Yahoo Sports"
+    },
+    {
+      "id": "a20261126-1",
+      "slot": "left",
+      "headline": "CBS makes its Lone Star Showdown pick: Horns at Kyle Field, Friday 6:30 on ABC",
+      "url": "https://www.cbssports.com/college-football/news/texas-vs-texas-a-m-prediction-pick-odds-spread-where-to-watch/",
+      "source": "CBS Sports"
+    },
     {
       "id": "a20261125-10",
       "slot": "right",
@@ -120,144 +151,6 @@
       "headline": "No. 1 2027 hoops recruit Beckham Black visits the Forty Acres",
       "url": "https://sports.yahoo.com/articles/top-basketball-prospect-2027-class-120451824.html",
       "source": "Longhorns Wire"
-    },
-    {
-      "id": "a20261124-b",
-      "slot": "banner",
-      "dropTo": "left",
-      "headline": "Season over for Kobe Black as Horns head into A&M week",
-      "url": "https://sports.yahoo.com/articles/texas-prepares-emotional-rivalry-showdown-004628919.html",
-      "source": "KXAN via Yahoo Sports",
-      "image": "https://s.yimg.com/lo/mysterio/api/e1e5b777684e25386d20e5d26aeeac94f43d8135f81fef24db988565a47ab135/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fkxan_articles_390%2F6cc6425119be818cb792cad14aed3b30.jpg_up.jpg",
-      "imageCredit": "Photo: AP via KXAN"
-    },
-    {
-      "id": "a20261124-21",
-      "slot": "left",
-      "headline": "O-line shuffle: Jordan Coleman could make first career start at A&M",
-      "url": "https://sports.yahoo.com/articles/longhorns-watch-vs-texas-m-194542867.html",
-      "source": "Longhorns Wire via Yahoo Sports"
-    },
-    {
-      "id": "a20261124-20",
-      "slot": "right",
-      "headline": "Unbeaten vs. unbeaten: No. 7 Horns meet 6-0 Georgetown Thursday in San Diego",
-      "url": "https://texaslonghorns.com/news/2026/11/24/no-7-5-mens-basketball-preview-vs-georgetown-rady-childrens-invitational-semifinals",
-      "source": "Texas Athletics"
-    },
-    {
-      "id": "a20261124-19",
-      "slot": "center",
-      "headline": "Ex-Yuyo chef opens El Moderno Tex-Mex near campus on West 29th",
-      "url": "https://www.yahoo.com/lifestyle/articles/yuyo-chef-returns-campus-area-220653857.html",
-      "source": "Eater Austin via Yahoo"
-    },
-    {
-      "id": "a20261124-18",
-      "slot": "left",
-      "headline": "Burnt orange in Aggieland: a Horns fan's guide to College Station",
-      "url": "https://thedailytexan.com/2026/11/23/burnt-orange-in-aggieland-a-texas-fans-guide-to-college-station/",
-      "source": "The Daily Texan",
-      "image": "https://thedailytexan.com/wp-content/uploads/2026/11/11-19-26_KylefField_KennedyWeatherby.jpeg",
-      "imageCredit": "Photo: The Daily Texan"
-    },
-    {
-      "id": "a20261124-17",
-      "slot": "right",
-      "headline": "Cunningham, national player of the week, leads No. 6 women vs. SE Louisiana",
-      "url": "https://texaslonghorns.com/news/2026/11/24/womens-basketball-no-6-womens-basketball-preview-southeastern-louisiana",
-      "source": "Texas Athletics"
-    },
-    {
-      "id": "a20261124-16",
-      "slot": "center",
-      "headline": "Aggies crawl in: 2-6 since Kentucky loss, QB job in flux",
-      "url": "https://thedailytexan.com/2026/11/23/texas-am-crawls-into-lone-star-showdown/",
-      "source": "The Daily Texan"
-    },
-    {
-      "id": "a20261124-15",
-      "slot": "left",
-      "headline": "From 1894 to Bevo to now: how the Lone Star Showdown became tradition",
-      "url": "https://thedailytexan.com/2026/11/23/how-the-lone-star-showdown-became-a-texas-tradition/",
-      "source": "The Daily Texan"
-    },
-    {
-      "id": "a20261124-14",
-      "slot": "right",
-      "headline": "Volleyball's SEC run ends as No. 11 Tennessee rallies from 0-2",
-      "url": "https://utsports.com/news/2026/11/22/volleyball-11-lady-vols-rally-past-15-texas-in-five-set-thriller",
-      "source": "Tennessee Athletics"
-    },
-    {
-      "id": "a20261124-13",
-      "slot": "center",
-      "headline": "A&M hasn't beaten the Horns in College Station since 2007",
-      "url": "https://12thman.com/news/2026/11/23/texas-game-week-press-conference-and-game-notes",
-      "source": "Texas A&M Athletics"
-    },
-    {
-      "id": "a20261124-12",
-      "slot": "left",
-      "headline": "The villain returns: Horns head back to Kyle Field, plenty at stake",
-      "url": "https://thedailytexan.com/2026/11/23/the-villain-returns-texas-heads-back-to-kyle-field-with-plenty-at-stake-again/",
-      "source": "The Daily Texan"
-    },
-    {
-      "id": "a20261124-11",
-      "slot": "left",
-      "headline": "Sark: DT Hero Kanu 'potentially' back for the playoffs",
-      "url": "https://www.orangebloods.com/2026/11/23/sarkisian-aggies-press-conference/",
-      "source": "Orangebloods"
-    },
-    {
-      "id": "a20261124-9",
-      "slot": "right",
-      "headline": "Unbeaten Georgetown gets its shot at No. 7 Texas Thursday",
-      "url": "https://sports.yahoo.com/articles/big-east-watch-week-four-100000291.html",
-      "source": "SB Nation via Yahoo Sports"
-    },
-    {
-      "id": "a20261124-7",
-      "slot": "left",
-      "headline": "Horns on the Aggies: 'good players everywhere'",
-      "url": "https://sports.yahoo.com/articles/texas-longhorns-had-texas-m-001131320.html",
-      "source": "Houston Chronicle via Yahoo Sports"
-    },
-    {
-      "id": "a20261124-6",
-      "slot": "right",
-      "headline": "Women hold at No. 6 in AP poll after Ohio State win",
-      "url": "https://www.clickondetroit.com/news/2026/11/23/south-carolina-remains-unanimous-no-1-in-womens-ap-top-25-ahead-of-uconn-clash-baylor-moves-into-the-poll/",
-      "source": "AP via WDIV"
-    },
-    {
-      "id": "a20261124-5",
-      "slot": "center",
-      "headline": "Elko still won't name a QB, and Sark expects to see both",
-      "url": "https://sports.yahoo.com/articles/texas-m-undecided-quarterback-against-002629155.html",
-      "source": "Houston Chronicle via Yahoo Sports"
-    },
-    {
-      "id": "a20261124-4",
-      "slot": "left",
-      "headline": "Golden: A&M is 'a dead team walking,' but guarantees nothing",
-      "url": "https://sports.yahoo.com/articles/texas-m-dead-team-walking-120000729.html",
-      "source": "Austin American-Statesman via Yahoo Sports"
-    },
-    {
-      "id": "a20261124-3",
-      "slot": "right",
-      "headline": "PG Isaiah Johnson could miss the San Diego trip",
-      "url": "https://sports.yahoo.com/articles/isaiah-johnson-injury-texas-basketball-235320274.html",
-      "source": "Austin American-Statesman via Yahoo Sports"
-    },
-    {
-      "id": "a20261124-2",
-      "slot": "center",
-      "headline": "[Flip]: Denton CB John Catlin IV jumps from Arkansas to Texas",
-      "url": "https://sports.yahoo.com/articles/texas-flips-three-star-cornerback-185141214.html",
-      "source": "Longhorns Wire via Yahoo Sports"
     }
   ]
 }
