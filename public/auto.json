@@ -1,13 +1,13 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of stories (owner's or auto) about games that are over or out of date; the front page hides those in left/center/right, the top links and the banner (never the feature spot) unless the owner listed the URL in keepUrls. Automatic stories may also use slot 'top' (at most 2, real breaking news only); they show first in the top links.",
-  "updatedAt": "2026-11-27T00:56:25Z",
-  "ticker": "FRI: No. 7 Men vs. Saint Mary's, title game, San Diego, 4 PM, FOX ★ FRI: No. 3 Football at Texas A&M, 6:30 PM, ABC ★ SUN: No. 6 Women at SEMO",
+  "updatedAt": "2026-11-27T11:24:37Z",
+  "ticker": "TODAY: No. 7 Men vs. Saint Mary's, title game, San Diego, 4 PM, FOX ★ TONIGHT: No. 3 Football at Texas A&M, 6:30 PM, ABC ★ SUN: No. 6 Women at SEMO",
   "tickerItems": [
     {
-      "text": "FRI: No. 7 Men vs. Saint Mary's, title game, San Diego, 4 PM, FOX"
+      "text": "TODAY: No. 7 Men vs. Saint Mary's, title game, San Diego, 4 PM, FOX"
     },
     {
-      "text": "FRI: No. 3 Football at Texas A&M, 6:30 PM, ABC",
+      "text": "TONIGHT: No. 3 Football at Texas A&M, 6:30 PM, ABC",
       "tickets": "https://www.stubhub.com/texas-a-m-aggies-football-college-station-tickets-11-27-2026/event/159477072/"
     },
     {
@@ -53,6 +53,51 @@
     }
   ],
   "stories": [
+    {
+      "id": "a20261127-b",
+      "slot": "banner",
+      "dropTo": "left",
+      "headline": "Lone Star Showdown tonight: No. 3 Horns double-digit favorites at reeling A&M",
+      "url": "https://sports.yahoo.com/college-football/articles/no-3-texas-vs-texas-000001071.html",
+      "source": "Texas Longhorns On SI via Yahoo Sports",
+      "image": "https://s.yimg.com/lo/mysterio/api/1174ded5081bae172e6ff6ab9baad0b9a6658b8797e0b7099f81970e1492dbf7/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftexas_longhorns_on_si_videos_958%2Fa8a4912d72e715e63742348a0f243119.jpg_up.jpg",
+      "imageCredit": "Photo: Texas Longhorns On SI"
+    },
+    {
+      "id": "a20261127-4",
+      "slot": "right",
+      "headline": "Spears career-high 18, Punch double-double as Horns hit 7-0 for first time in over a decade",
+      "url": "https://www.si.com/college/texas/basketball/3-takeaways-after-texas-holds-off-georgetown-for-thanksgiving-win",
+      "source": "Texas Longhorns On SI"
+    },
+    {
+      "id": "a20261127-3",
+      "slot": "center",
+      "headline": "Experts back Horns by 11; Aggies chasing first win over Texas since 2010",
+      "url": "https://sports.yahoo.com/college-football/articles/texas-m-week-13-expert-023443649.html",
+      "source": "Aggies Wire via Yahoo Sports"
+    },
+    {
+      "id": "a20261127-2",
+      "slot": "left",
+      "headline": "Tucker's kick to back-to-back wins: why the Texas-A&M hate never fades",
+      "url": "https://sports.yahoo.com/college-football/articles/lone-star-showdown-why-texas-153641641.html",
+      "source": "Raleigh News & Observer via Yahoo Sports"
+    },
+    {
+      "id": "a20261127-1",
+      "slot": "left",
+      "headline": "Sacks allowed and interceptions: the numbers that could trip up Texas at Kyle Field",
+      "url": "https://sports.yahoo.com/college-football/articles/3-matchups-decide-texas-week-143001836.html",
+      "source": "Texas Longhorns On SI via Yahoo Sports"
+    },
+    {
+      "id": "a20261126-b",
+      "slot": "left",
+      "headline": "A&M's offense ranks 123rd as No. 3 Horns roll into Kyle Field",
+      "url": "https://sports.yahoo.com/college-football/articles/texas-m-vs-texas-3-002231673.html",
+      "source": "Aggies Wire via Yahoo Sports"
+    },
     {
       "id": "a20261126-11",
       "slot": "right",
@@ -110,16 +155,6 @@
       "source": "Burnt Orange Nation via Yahoo Sports"
     },
     {
-      "id": "a20261126-b",
-      "slot": "banner",
-      "dropTo": "left",
-      "headline": "A&M's offense ranks 123rd as No. 3 Horns roll into Kyle Field",
-      "url": "https://sports.yahoo.com/college-football/articles/texas-m-vs-texas-3-002231673.html",
-      "source": "Aggies Wire via Yahoo Sports",
-      "image": "https://s.yimg.com/lo/mysterio/api/20d277cbda11be8f93cada8a19016ce7c96aa302a312cd5d0970957e8d3baabd/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Faggies_wire_usa_today_articles_632%2Fcbca118e3604a70d77dcc18a81d33924.jpg",
-      "imageCredit": "Photo: Aggies Wire"
-    },
-    {
       "id": "a20261126-3",
       "slot": "right",
       "headline": "Clark scores 19, No. 6 women rout SE Louisiana 96-45 to go 7-0",
@@ -139,71 +174,6 @@
       "headline": "CBS makes its Lone Star Showdown pick: Horns at Kyle Field, Friday 6:30 on ABC",
       "url": "https://www.cbssports.com/college-football/news/texas-vs-texas-a-m-prediction-pick-odds-spread-where-to-watch/",
       "source": "CBS Sports"
-    },
-    {
-      "id": "a20261125-10",
-      "slot": "right",
-      "headline": "Clark out a month, Lewis could return as Horns head to San Diego",
-      "url": "https://sports.yahoo.com/mens-college-basketball/articles/texas-basketball-going-tournament-win-201802031.html",
-      "source": "Austin American-Statesman"
-    },
-    {
-      "id": "a20261125-9",
-      "slot": "center",
-      "headline": "Madam Mam's to close West Campus spot Dec. 18; new café opens at the Blanton",
-      "url": "https://austin.culturemap.com/news/restaurants-bars/food-news-openings-shola-escuela/",
-      "source": "CultureMap Austin",
-      "image": "https://austin.culturemap.com/media-library/shola-feast.jpg?id=68725615&width=1200&height=600&coordinates=0%2C19%2C0%2C19",
-      "imageCredit": "Photo: CultureMap Austin"
-    },
-    {
-      "id": "a20261125-8",
-      "slot": "left",
-      "headline": "O-line takes another hit: Goosby out, Cojoe questionable for A&M",
-      "url": "https://hookemheadlines.com/texas-oline-taking-another-hit-isnt-what-arch-manning-needed-vs-texas-am",
-      "source": "Hook 'Em Headlines"
-    },
-    {
-      "id": "a20261125-7",
-      "slot": "left",
-      "headline": "Committee bumps Horns two spots to No. 3 in CFP rankings",
-      "url": "https://sports.yahoo.com/college-football/articles/college-football-playoff-committee-sends-015758577.html",
-      "source": "SEC Country"
-    },
-    {
-      "id": "a20261125-6",
-      "slot": "left",
-      "headline": "Injury report: Simmons questionable for A&M, Kobe Black done for year",
-      "url": "https://sports.yahoo.com/college-football/articles/longhorns-injury-report-colin-simmons-154018813.html",
-      "source": "Longhorns Wire"
-    },
-    {
-      "id": "a20261125-5",
-      "slot": "left",
-      "headline": "Path to Atlanta: beat A&M, then root for Auburn or Vandy",
-      "url": "https://lethbridgeherald.com/sports/national-sports/2026/11/25/texas-eyes-the-sec-title-game-but-a-desperate-texas-am-awaits-on-friday/",
-      "source": "AP"
-    },
-    {
-      "id": "a20261125-4",
-      "slot": "center",
-      "headline": "Sierra Canyon OL Lance Ciechanowski becomes third 2028 commit",
-      "url": "https://sports.yahoo.com/articles/texas-lands-another-recruiting-commitment-005206780.html",
-      "source": "Texas Longhorns On SI"
-    },
-    {
-      "id": "a20261125-3",
-      "slot": "center",
-      "headline": "From 11-0 to 4-7: A&M limps into rivalry week as a cautionary tale",
-      "url": "https://www.cbssports.com/college-football/news/texas-a-m-cautionary-tale-rivalry-week/",
-      "source": "CBS Sports"
-    },
-    {
-      "id": "a20261125-1",
-      "slot": "right",
-      "headline": "No. 1 2027 hoops recruit Beckham Black visits the Forty Acres",
-      "url": "https://sports.yahoo.com/articles/top-basketball-prospect-2027-class-120451824.html",
-      "source": "Longhorns Wire"
     }
   ]
 }
