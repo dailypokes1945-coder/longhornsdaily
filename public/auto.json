@@ -1,17 +1,17 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of stories (owner's or auto) about games that are over or out of date; the front page hides those in left/center/right, the top links and the banner (never the feature spot) unless the owner listed the URL in keepUrls. Automatic stories may also use slot 'top' (at most 2, real breaking news only); they show first in the top links.",
-  "updatedAt": "2026-11-26T17:56:49Z",
-  "ticker": "TODAY: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1 ★ FRI: Hoops Day 2 in San Diego, FOX ★ FRI: No. 3 Football at Texas A&M, 6:30 PM, ABC",
+  "updatedAt": "2026-11-27T00:56:25Z",
+  "ticker": "FRI: No. 7 Men vs. Saint Mary's, title game, San Diego, 4 PM, FOX ★ FRI: No. 3 Football at Texas A&M, 6:30 PM, ABC ★ SUN: No. 6 Women at SEMO",
   "tickerItems": [
     {
-      "text": "TODAY: No. 7 Men vs. Georgetown, San Diego, 1:30 PM, FS1"
-    },
-    {
-      "text": "FRI: Hoops Day 2 in San Diego, FOX"
+      "text": "FRI: No. 7 Men vs. Saint Mary's, title game, San Diego, 4 PM, FOX"
     },
     {
       "text": "FRI: No. 3 Football at Texas A&M, 6:30 PM, ABC",
       "tickets": "https://www.stubhub.com/texas-a-m-aggies-football-college-station-tickets-11-27-2026/event/159477072/"
+    },
+    {
+      "text": "SUN: No. 6 Women at SEMO"
     }
   ],
   "expired": [
@@ -46,9 +46,41 @@
     {
       "url": "https://texaslonghorns.com/news/2026/11/13/softball-signs-three-on-national-signing-day",
       "reason": "Nov. 13 story, too old"
+    },
+    {
+      "url": "https://sports.yahoo.com/mens-college-basketball/articles/texas-vs-georgetown-preview-hoyas-123600876.html",
+      "reason": "Georgetown game over (Texas W 92-83)"
     }
   ],
   "stories": [
+    {
+      "id": "a20261126-11",
+      "slot": "right",
+      "headline": "Isaiah Johnson drops 26, No. 7 Horns hand Georgetown first loss 92-83; Saint Mary's next for the title",
+      "url": "https://www.wral.com/news/ap/b3743-johnson-scores-26-points-to-carry-no-7-texas-to-92-83-win-over-georgetown/",
+      "source": "AP via WRAL"
+    },
+    {
+      "id": "a20261126-10",
+      "slot": "center",
+      "headline": "UT plans 2,500 new student beds, starting with 1,000-bed Whitis Avenue hall in fall 2027",
+      "url": "https://news.utexas.edu/2026/11/19/coming-soon-to-the-forty-acres-more-affordable-modern-housing-for-students/",
+      "source": "UT News"
+    },
+    {
+      "id": "a20261126-9",
+      "slot": "center",
+      "headline": "Aggies rule out seven vs. Texas, including captain Ratcliffe and WR Bussey",
+      "url": "https://sports.yahoo.com/college-football/articles/texas-m-faces-more-injury-022921459.html",
+      "source": "Texas A&M On SI via Yahoo Sports"
+    },
+    {
+      "id": "a20261126-8",
+      "slot": "left",
+      "headline": "Sark warns against overlooking A&M; Arch says crowd-noise drills have Horns ready for Kyle Field",
+      "url": "https://sports.yahoo.com/articles/texas-prepares-emotional-rivalry-showdown-004628919.html",
+      "source": "KXAN via Yahoo Sports"
+    },
     {
       "id": "a20261126-7",
       "slot": "right",
@@ -165,13 +197,6 @@
       "headline": "From 11-0 to 4-7: A&M limps into rivalry week as a cautionary tale",
       "url": "https://www.cbssports.com/college-football/news/texas-a-m-cautionary-tale-rivalry-week/",
       "source": "CBS Sports"
-    },
-    {
-      "id": "a20261125-2",
-      "slot": "right",
-      "headline": "Hoyas bring a top-10 offense and an 11-for-11 big man to San Diego",
-      "url": "https://sports.yahoo.com/mens-college-basketball/articles/texas-vs-georgetown-preview-hoyas-123600876.html",
-      "source": "Burnt Orange Nation"
     },
     {
       "id": "a20261125-1",
