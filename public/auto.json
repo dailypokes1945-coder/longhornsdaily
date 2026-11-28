@@ -1,17 +1,17 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of stories (owner's or auto) about games that are over or out of date; the front page hides those in left/center/right, the top links and the banner (never the feature spot) unless the owner listed the URL in keepUrls. Automatic stories may also use slot 'top' (at most 2, real breaking news only); they show first in the top links.",
-  "updatedAt": "2026-11-27T17:55:07Z",
-  "ticker": "TODAY: No. 7 Men vs. Saint Mary's, title game, San Diego, 4 PM, FOX ★ TONIGHT: No. 3 Football at Texas A&M, 6:30 PM, ABC ★ SUN: No. 6 Women at SEMO",
+  "updatedAt": "2026-11-28T00:56:16Z",
+  "ticker": "TONIGHT: No. 3 Football at Texas A&M, 6:30 PM, ABC ★ SUN: No. 6 Women at SEMO ★ TUE: No. 7 Men at Louisville, 8 PM",
   "tickerItems": [
-    {
-      "text": "TODAY: No. 7 Men vs. Saint Mary's, title game, San Diego, 4 PM, FOX"
-    },
     {
       "text": "TONIGHT: No. 3 Football at Texas A&M, 6:30 PM, ABC",
       "tickets": "https://www.stubhub.com/texas-a-m-aggies-football-college-station-tickets-11-27-2026/event/159477072/"
     },
     {
       "text": "SUN: No. 6 Women at SEMO"
+    },
+    {
+      "text": "TUE: No. 7 Men at Louisville, 8 PM"
     }
   ],
   "expired": [
@@ -50,15 +50,33 @@
     {
       "url": "https://sports.yahoo.com/mens-college-basketball/articles/texas-vs-georgetown-preview-hoyas-123600876.html",
       "reason": "Georgetown game over (Texas W 92-83)"
+    },
+    {
+      "url": "https://sports.yahoo.com/mens-college-basketball/articles/texas-basketball-faces-major-test-173140809.html",
+      "reason": "Saint Mary's game over (Texas W 76-73)"
     }
   ],
   "stories": [
     {
-      "id": "a20261127-8",
+      "id": "a20261127-11",
+      "slot": "left",
+      "headline": "LIVE: No. 3 Horns at Kyle Field — a win clinches a spot in the SEC title game",
+      "url": "https://www.cbssports.com/college-football/news/texas-texas-a-m-live-updates-score-college-football-week-13-2026/live/",
+      "source": "CBS Sports"
+    },
+    {
+      "id": "a20261127-10",
+      "slot": "center",
+      "headline": "New eats: Kōbō sushi opens on Duval in Hyde Park among six fresh Austin-area spots",
+      "url": "https://communityimpact.com/central-austin/dining/skip-the-leftovers-6-new-central-texas-restaurants-to-try-after-thanksgiving/",
+      "source": "Community Impact"
+    },
+    {
+      "id": "a20261127-9",
       "slot": "right",
-      "headline": "Title on the line: unbeaten No. 7 Horns face Saint Mary's at 4 PM on FOX",
-      "url": "https://sports.yahoo.com/mens-college-basketball/articles/texas-basketball-faces-major-test-173140809.html",
-      "source": "SEC Country"
+      "headline": "Horns rally from 11 down, Vokietaitis 29 and 11 as No. 7 Texas edges Saint Mary's 76-73 in San Diego final, goes 8-0",
+      "url": "https://ballexclusives.com/no-7-texas-beats-saint-marys-76-73-as-vokietaitis-and-johnson-combine-for-50/",
+      "source": "Ball Exclusives"
     },
     {
       "id": "a20261127-7",
