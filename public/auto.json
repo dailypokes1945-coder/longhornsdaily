@@ -1,6 +1,6 @@
 {
   "_about": "Written by the morning update. 'ticker' = the next 3 Texas events (shown under the logo unless the owner turns on 'Use my own ticker' in the editor). 'stories' go in columns (left, center, right), plus at most one daily banner story (slot 'banner', with 'dropTo' = the column the owner's banner drops into while it shows); the owner controls feature and top links and can hide or edit the automatic banner. Hidden story ids live in the site's hiddenAuto list. 'expired' = [{url, reason}] of stories (owner's or auto) about games that are over or out of date; the front page hides those in left/center/right, the top links and the banner (never the feature spot) unless the owner listed the URL in keepUrls. Automatic stories may also use slot 'top' (at most 2, real breaking news only); they show first in the top links.",
-  "updatedAt": "2026-11-28T18:20:00Z",
+  "updatedAt": "2026-11-28T18:45:00Z",
   "ticker": "SUN: No. 6 Women at SEMO, 2 PM, ESPN+ ★ TUE: No. 7 Men at Louisville, 8 PM, ESPN2 ★ WED: No. 6 Women vs. Louisville, 8:15 PM, ESPN2",
   "tickerItems": [
     {
@@ -93,18 +93,16 @@
     {
       "id": "a20261128-6",
       "slot": "center",
-      "headline": "Regents green-light 6,000-seat arena and athlete housing next to Moody Center; Live Nation deal in works",
-      "url": "https://communityimpact.com/central-austin/development/new-ut-austin-arena-student-athlete-facilities-move-toward-development/",
-      "source": "Community Impact",
-      "image": "https://communityimpact.com/og/cmwtq0y6r0wzd01qh25y8ms1u/?v=1795554540",
-      "imageCredit": "Photo: Community Impact"
+      "headline": "Dawgs' view: Georgia won 2024 title-game OT thriller and last three meetings; Texas next in Atlanta",
+      "url": "https://www.dawgnation.com/football/around-the-dawghouse/2026-sec-championship-game-georgia-play-texas/ZT6MSXJBABHIHMERMYKNQLUCNA/",
+      "source": "DawgNation"
     },
     {
       "id": "a20261128-5",
       "slot": "right",
-      "headline": "Etute career-high 18, Booker double-double as No. 6 women rout SE Louisiana 96-45, go 7-0",
-      "url": "https://texaslonghorns.com/news/2026/11/25/womens-basketball-no-6-texas-womens-basketball-defeats-southeastern-louisiana-96-45",
-      "source": "Texas Athletics"
+      "headline": "Selection Sunday: ESPN bracketology projects volleyball as a No. 4 seed; field revealed Sunday 5 PM CT",
+      "url": "https://www.espn.com/college-sports/story/_/id/50590065/2026-ncaa-womens-volleyball-bracketology-bracket-watch",
+      "source": "ESPN"
     },
     {
       "id": "a20261128-b",
